@@ -1,0 +1,2052 @@
+{
+
+  "Programme Génie Informatique et Communications": {
+    "program": "Programme Génie Informatique et Communications",
+    "courses_by_semester": {
+      "1": [
+        {
+          "course": "Electronique analogique",
+          "schedule": {
+            "group_1": {
+              "instructor": "E. RACHID,E. HLEIHEL",
+              "slots": [
+                {
+                  "start_time": "08:00",
+                  "end_time": "09:15",
+                  "week_day": "Lundi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "09:30",
+                  "end_time": "10:45",
+                  "week_day": "Lundi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "13:30",
+                  "end_time": "14:45",
+                  "week_day": "Vendredi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "15:00",
+                  "end_time": "16:15",
+                  "week_day": "Vendredi",
+                  "weeks": "paires",
+                  "session_type": "cours"
+                }
+              ]
+            },
+            "group_2": {
+              "instructor": "E. RACHID,E. HLEIHEL",
+              "slots": [
+                {
+                  "start_time": "13:30",
+                  "end_time": "14:45",
+                  "week_day": "Lundi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "15:00",
+                  "end_time": "16:15",
+                  "week_day": "Lundi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "15:00",
+                  "end_time": "16:15",
+                  "week_day": "Mercredi",
+                  "weeks": "paires",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "13:30",
+                  "end_time": "14:45",
+                  "week_day": "Mercredi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                }
+              ]
+            }
+          },
+          "type": "required"
+        },
+        {
+          "course": "Théorie du signal",
+          "schedule": {
+            "group_1": {
+              "instructor": "H. SAWAYA",
+              "slots": [
+                {
+                  "start_time": "08:00",
+                  "end_time": "09:15",
+                  "week_day": "Vendredi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "11:00",
+                  "end_time": "12:15",
+                  "week_day": "Lundi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                }
+              ]
+            },
+            "group_2": {
+              "instructor": "H. SAWAYA",
+              "slots": [
+                {
+                  "start_time": "08:00",
+                  "end_time": "09:15",
+                  "week_day": "Lundi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "11:15",
+                  "end_time": "12:30",
+                  "week_day": "Vendredi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                }
+              ]
+            }
+          },
+          "type": "required"
+        },
+        {
+          "course": "Programmation orientée objets",
+          "schedule": {
+            "group_1": {
+              "instructor": "Y.EL.BAKOUNY",
+              "slots": [
+                {
+                  "start_time": "09:30",
+                  "end_time": "10:45",
+                  "week_day": "Mercredi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "11:00",
+                  "end_time": "12:15",
+                  "week_day": "Mercredi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "16:30",
+                  "end_time": "17:45",
+                  "week_day": "Vendredi",
+                  "weeks": "impaires",
+                  "session_type": "cours"
+                }
+              ]
+            },
+            "group_2": {
+              "instructor": "C.SAAD HAJJAR",
+              "slots": [
+                {
+                  "start_time": "15:00",
+                  "end_time": "16:15",
+                  "week_day": "Mercredi",
+                  "weeks": "impaires",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "16:30",
+                  "end_time": "17:45",
+                  "week_day": "Mercredi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "13:30",
+                  "end_time": "14:45",
+                  "week_day": "Vendredi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "15:00",
+                  "end_time": "16:15",
+                  "week_day": "Vendredi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                }
+              ]
+            }
+          },
+          "type": "required"
+        },
+        {
+          "course": "Gestion de projets",
+          "schedule": {
+            "group_1": {
+              "instructor": "S. ELGHARIB",
+              "slots": [
+                {
+                  "start_time": "09:30",
+                  "end_time": "10:45",
+                  "week_day": "Vendredi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "11:00",
+                  "end_time": "12:15",
+                  "week_day": "Vendredi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                }
+              ]
+            },
+            "group_2": {
+              "instructor": "S. ELGHARIB",
+              "slots": [
+                {
+                  "start_time": "09:45",
+                  "end_time": "11:00",
+                  "week_day": "Mercredi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "11:15",
+                  "end_time": "12:30",
+                  "week_day": "Mercredi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                }
+              ]
+            }
+          },
+          "type": "required"
+        },
+        {
+          "course": "Introduction aux réseaux de données",
+          "schedule": {
+            "group_1": {
+              "instructor": "J. FARES",
+              "slots": [
+                {
+                  "start_time": "13:30",
+                  "end_time": "14:45",
+                  "week_day": "Lundi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "15:00",
+                  "end_time": "16:15",
+                  "week_day": "Lundi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "16:30",
+                  "end_time": "17:45",
+                  "week_day": "Mercredi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                }
+              ]
+            },
+            "group_2": {
+              "instructor": "N. AOUAD REHAYEM",
+              "slots": [
+                {
+                  "start_time": "08:30",
+                  "end_time": "09:30",
+                  "week_day": "Lundi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "08:30",
+                  "end_time": "09:30",
+                  "week_day": "Vendredi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "09:30",
+                  "end_time": "11:00",
+                  "week_day": "Vendredi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                }
+              ]
+            }
+          },
+          "type": "required"
+        },
+        {
+          "course": "Statistiques",
+          "schedule": {
+            "group_1": {
+              "instructor": "T. KHALIL",
+              "slots": [
+                {
+                  "start_time": "13:30",
+                  "end_time": "14:45",
+                  "week_day": "Mercredi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "15:00",
+                  "end_time": "16:15",
+                  "week_day": "Mercredi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                }
+              ]
+            },
+            "group_2": {
+              "instructor": "T. KHALIL",
+              "slots": [
+                {
+                  "start_time": "09:30",
+                  "end_time": "10:45",
+                  "week_day": "Lundi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "11:00",
+                  "end_time": "12:15",
+                  "week_day": "Lundi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                }
+              ]
+            }
+          },
+          "type": "required"
+        },
+                {
+          "course": "Economie de l'entreprise",
+          "schedule": {
+            "group_1": {
+              "instructor": "J. EL HOKAYEM",
+              "slots": [
+                {
+                  "start_time": "16:30",
+                  "end_time": "17:45",
+                  "week_day": "Lundi",
+                  "weeks": "paires",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "18:00",
+                  "end_time": "19:15",
+                  "week_day": "Lundi",
+                  "weeks": "paires",
+                  "session_type": "cours"
+                }
+              ]
+            }
+          },
+          "type": "optional"
+        },
+        {
+          "course": "Financial markets and institutions",
+          "schedule": {
+            "group_1": {
+              "instructor": "J. EL HOKAYEM",
+              "slots": [
+                {
+                  "start_time": "16:30",
+                  "end_time": "17:45",
+                  "week_day": "Lundi",
+                  "weeks": "impaires",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "18:00",
+                  "end_time": "19:15",
+                  "week_day": "Lundi",
+                  "weeks": "impaires",
+                  "session_type": "cours"
+                }
+              ]
+            }
+          },
+          "type": "optional"
+        },
+        {
+          "course": "Marketing",
+          "schedule": {
+            "group_1": {
+              "instructor": "H. BAIRAMIAN",
+              "slots": [
+                {
+                  "start_time": "18:00",
+                  "end_time": "19:15",
+                  "week_day": "Mercredi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                }
+              ]
+            }
+          },
+          "type": "optional"
+        },
+        {
+          "course": "Management opérationnel",
+          "schedule": {
+            "group_1": {
+              "instructor": "N. BEJJANI",
+              "slots": [
+                {
+                  "start_time": "16:30",
+                  "end_time": "17:45",
+                  "week_day": "Lundi",
+                  "weeks": "paires",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "18:00",
+                  "end_time": "19:15",
+                  "week_day": "Lundi",
+                  "weeks": "paires",
+                  "session_type": "cours"
+                }
+              ]
+            },
+            "group_2": {
+              "instructor": "N. BEJJANI",
+              "slots": [
+                {
+                  "start_time": "16:30",
+                  "end_time": "17:45",
+                  "week_day": "Lundi",
+                  "weeks": "impaires",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "18:00",
+                  "end_time": "19:15",
+                  "week_day": "Lundi",
+                  "weeks": "impaires",
+                  "session_type": "cours"
+                }
+              ]
+            }
+          },
+          "type": "optional"
+        },
+        {
+          "course": "Strategic planning",
+          "schedule": {
+            "group_1": {
+              "instructor": "R. HELOU SARKIS",
+              "slots": [
+                {
+                  "start_time": "16:30",
+                  "end_time": "17:45",
+                  "week_day": "Lundi",
+                  "weeks": "04-09",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "18:00",
+                  "end_time": "19:15",
+                  "week_day": "Lundi",
+                  "weeks": "04-09",
+                  "session_type": "cours"
+                }
+              ]
+            }
+          },
+          "type": "optional"
+        },
+        {
+          "course": "Work ready now",
+          "schedule": {
+            "group_1": {
+              "instructor": "C. MOUKAWAM DIB",
+              "slots": [
+                {
+                  "start_time": "16:30",
+                  "end_time": "17:45",
+                  "week_day": "Lundi",
+                  "weeks": "02-07",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "18:00",
+                  "end_time": "19:15",
+                  "week_day": "Lundi",
+                  "weeks": "02-07",
+                  "session_type": "cours"
+                }
+              ]
+            },
+            "group_2": {
+              "instructor": "P. NOM",
+              "slots": [
+                {
+                  "start_time": "16:30",
+                  "end_time": "17:45",
+                  "week_day": "Lundi",
+                  "weeks": "02-07",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "18:00",
+                  "end_time": "19:15",
+                  "week_day": "Lundi",
+                  "weeks": "02-07",
+                  "session_type": "cours"
+                }
+              ]
+            }
+          },
+          "type": "optional"
+        },
+                {
+          "course": "Logistics and supply chain management",
+          "schedule": {
+            "group_1": {
+              "instructor": "M. EL HOKAYEM",
+              "slots": [
+                    {
+                      "start_time": "16:30",
+                      "end_time": "17:45",
+                      "week_day": "Lundi",
+                      "weeks": "paires",
+                      "session_type": "cours"
+                    },
+                    {
+                      "start_time": "18:00",
+                      "end_time": "19:15",
+                      "week_day": "Lundi",
+                      "weeks": "paires",
+                      "session_type": "cours"
+                    }
+                  ]
+                },
+            "group_2": {
+              "instructor": "M. EL HOKAYEM",
+              "slots": [
+                    {
+                      "start_time": "16:30",
+                      "end_time": "17:45",
+                      "week_day": "Lundi",
+                      "weeks": "impaires",
+                      "session_type": "cours"
+                    },
+                    {
+                      "start_time": "18:00",
+                      "end_time": "19:15",
+                      "week_day": "Lundi",
+                      "weeks": "impaires",
+                      "session_type": "cours"
+                    }
+                  ]
+                }
+              
+            
+          },
+          "type": "optional"
+        }
+      ],
+        "3": [
+    {
+      "course": "Structures de données et algorithmes",
+      "schedule": {
+        "group_1": {
+          "instructor": "D. MEZHER",
+          "slots": [
+            {
+              "start_time": "08:00",
+              "end_time": "09:15",
+              "week_day": "Mercredi",
+              "weeks": "all",
+              "session_type": "cours"
+            },
+            {
+              "start_time": "09:30",
+              "end_time": "10:45",
+              "week_day": "Mercredi",
+              "weeks": "all",
+              "session_type": "cours"
+            }
+          ]
+        },
+        "group_2": {
+          "instructor": "D. MEZHER",
+          "slots": [
+            {
+              "start_time": "08:00",
+              "end_time": "09:15",
+              "week_day": "Mardi",
+              "weeks": "all",
+              "session_type": "cours"
+            },
+            {
+              "start_time": "09:30",
+              "end_time": "10:45",
+              "week_day": "Mardi",
+              "weeks": "all",
+              "session_type": "cours"
+            }
+          ]
+        }
+      },
+      "type": "required",
+      "extra_info": ""
+    },
+    {
+      "course": "Ethique et entreprise",
+      "schedule": {
+        "group_1": {
+          "instructor": "N. BEJJANI",
+          "slots": [
+            {
+              "start_time": "13:30",
+              "end_time": "14:45",
+              "week_day": "Vendredi",
+              "weeks": "all",
+              "session_type": "cours"
+            },
+            {
+              "start_time": "15:00",
+              "end_time": "16:15",
+              "week_day": "Vendredi",
+              "weeks": "all",
+              "session_type": "cours"
+            }
+          ]
+        },
+        "group_2": {
+          "instructor": "N. BEJJANI",
+          "slots": [
+            {
+              "start_time": "09:30",
+              "end_time": "10:45",
+              "week_day": "Mercredi",
+              "weeks": "all",
+              "session_type": "cours"
+            },
+            {
+              "start_time": "11:00",
+              "end_time": "12:15",
+              "week_day": "Mercredi",
+              "weeks": "all",
+              "session_type": "cours"
+            }
+          ]
+        },
+        "group_3": {
+          "instructor": "N. BEJJANI",
+          "slots": [
+            {
+              "start_time": "09:30",
+              "end_time": "10:45",
+              "week_day": "Lundi",
+              "weeks": "all",
+              "session_type": "cours"
+            },
+            {
+              "start_time": "11:00",
+              "end_time": "12:15",
+              "week_day": "Lundi",
+              "weeks": "all",
+              "session_type": "cours"
+            }]
+          },
+          "group_4": {
+          "instructor": "N. BEJJANI",
+          "slots": [
+       
+          {
+              "start_time": "13:30",
+              "end_time": "14:45",
+              "week_day": "Mercredi",
+              "weeks": "all",
+              "session_type": "cours"
+            },
+            {
+              "start_time": "15:00",
+              "end_time": "16:15",
+              "week_day": "Mercredi",
+              "weeks": "all",
+              "session_type": "cours"
+            }]}
+
+      },
+      "type": "required",
+      "extra_info": ""
+    },
+    {
+      "course": "Systèmes embarqués",
+      "schedule": {
+        "group_1": {
+          "instructor": "J. SAWMA (max. 30)",
+          "slots": [
+            {
+              "start_time": "09:30",
+              "end_time": "10:45",
+              "week_day": "Jeudi",
+              "weeks": "all",
+              "session_type": "cours"
+            },
+            {
+              "start_time": "11:00",
+              "end_time": "12:15",
+              "week_day": "Jeudi",
+              "weeks": "all",
+              "session_type": "cours"
+            }
+          ]
+        }
+      },
+      "type": "optional",
+      "extra_info": ""
+    },
+    {
+      "course": "Programmation fonctionnelle",
+      "schedule": {
+        "group_1": {
+          "instructor": "M. AYLI ",
+          "slots": [
+            {
+              "start_time": "13:30",
+              "end_time": "14:45",
+              "week_day": "Lundi",
+              "weeks": "all",
+              "session_type": "cours"
+            },
+            {
+              "start_time": "15:00",
+              "end_time": "16:15",
+              "week_day": "Lundi",
+              "weeks": "all",
+              "session_type": "cours"
+            }
+          ]
+        }
+      },
+      "type": "optional",
+      "extra_info": ""
+    },
+    {
+      "course": "Introduction à la science des données",
+      "schedule": {
+        "group_1": {
+          "instructor": "B. NASR",
+          "slots": [
+            {
+              "start_time": "16:30",
+              "end_time": "17:45",
+              "week_day": "Lundi",
+              "weeks": "all",
+              "session_type": "cours"
+            },
+            {
+              "start_time": "18:00",
+              "end_time": "19:15",
+              "week_day": "Lundi",
+              "weeks": "all",
+              "session_type": "cours"
+            }
+          ]
+        }
+      },
+      "type": "optional",
+      "extra_info": ""
+    },
+    {
+      "course": "Innovation and design thinking",
+      "schedule": {
+        "group_1": {
+          "instructor": "U. HAGE",
+          "slots": [
+            {
+              "start_time": "16:30",
+              "end_time": "17:45",
+              "week_day": "Mercredi",
+              "weeks": "impaires",
+              "session_type": "cours"
+            },
+            {
+              "start_time": "18:00",
+              "end_time": "19:15",
+              "week_day": "Mercredi",
+              "weeks": "impaires",
+              "session_type": "cours"
+            }
+          ]
+        },
+        "group_2": {
+          "instructor": "G. SALLOUM",
+          "slots": [
+            {
+              "start_time": "16:30",
+              "end_time": "17:45",
+              "week_day": "Mercredi",
+              "weeks": "paires",
+              "session_type": "cours"
+            },
+            {
+              "start_time": "18:00",
+              "end_time": "19:15",
+              "week_day": "Mercredi",
+              "weeks": "paires",
+              "session_type": "cours"
+            }
+          ]
+        },
+        "group_3": {
+          "instructor": "N. SARDOUK",
+          "slots": [
+            {
+              "start_time": "16:30",
+              "end_time": "17:45",
+              "week_day": "Mercredi",
+              "weeks": "paires",
+              "session_type": "cours"
+            },
+            {
+              "start_time": "18:00",
+              "end_time": "19:15",
+              "week_day": "Mercredi",
+              "weeks": "paires",
+              "session_type": "cours"
+            }
+          ]
+        },
+        "group_4": {
+          "instructor": "G. SALLOUM",
+          "slots": [
+            {
+              "start_time": "16:30",
+              "end_time": "17:45",
+              "week_day": "Mercredi",
+              "weeks": "paires",
+              "session_type": "cours"
+            },
+            {
+              "start_time": "18:00",
+              "end_time": "19:15",
+              "week_day": "Mercredi",
+              "weeks": "paires",
+              "session_type": "cours"
+            }
+          ]
+        }
+      },
+      "type": "required",
+      "extra_info": ""
+    },
+    {
+      "course": "Bases de données avancées",
+      "schedule": {
+        "group_1": {
+          "instructor": "J. ABDO",
+          "slots": [
+            {
+              "start_time": "16:30",
+              "end_time": "17:45",
+              "week_day": "Jeudi",
+              "weeks": "all",
+              "session_type": "cours"
+            },
+            {
+              "start_time": "18:00",
+              "end_time": "19:15",
+              "week_day": "Jeudi",
+              "weeks": "all",
+              "session_type": "cours"
+            }
+          ]
+        }
+      },
+      "type": "optional",
+      "extra_info": ""
+    },
+    {
+      "course": "Programmation pour le WEB",
+      "schedule": {
+        "group_1": {
+          "instructor": "A. TANNOURY ",
+          "slots": [
+            {
+              "start_time": "16:30",
+              "end_time": "17:45",
+              "week_day": "Vendredi",
+              "weeks": "all",
+              "session_type": "cours"
+            },
+            {
+              "start_time": "18:00",
+              "end_time": "19:15",
+              "week_day": "Vendredi",
+              "weeks": "all",
+              "session_type": "cours"
+            }
+          ]
+        }
+      },
+      "type": "optional",
+      "extra_info": ""
+    },
+    {
+      "course": "Analyse de projets",
+      "schedule": {
+        "group_1": {
+          "instructor": "K. AHMAD",
+          "slots": [
+            {
+              "start_time": "08:00",
+              "end_time": "09:15",
+              "week_day": "Vendredi",
+              "weeks": "all",
+              "session_type": "cours"
+            },
+            {
+              "start_time": "09:30",
+              "end_time": "10:45",
+              "week_day": "Vendredi",
+              "weeks": "all",
+              "session_type": "cours"
+            }
+          ]
+        },
+        "group_2": {
+          "instructor": "K. AHMAD",
+          "slots": [
+            {
+              "start_time": "15:00",
+              "end_time": "16:15",
+              "week_day": "Mardi",
+              "weeks": "all",
+              "session_type": "cours"
+            },
+            {
+              "start_time": "16:30",
+              "end_time": "17:45",
+              "week_day": "Mardi",
+              "weeks": "all",
+              "session_type": "cours"
+            }
+          ]
+        }
+      },
+      "type": "required",
+      "extra_info": "Option Génie Logiciel"
+    },
+    {
+      "course": "Modèles de conception",
+      "schedule": {
+        "group_1": {
+          "instructor": "R. KILANY CHAMOUN",
+          "slots": [
+            {
+              "start_time": "11:00",
+              "end_time": "12:15",
+              "week_day": "Mercredi",
+              "weeks": "all",
+              "session_type": "cours"
+            },
+            {
+              "start_time": "11:00",
+              "end_time": "12:15",
+              "week_day": "Vendredi",
+              "weeks": "all",
+              "session_type": "cours"
+            }
+          ]
+        },
+        "group_2": {
+          "instructor": "R. KILANY CHAMOUN",
+          "slots": [
+            {
+              "start_time": "13:30",
+              "end_time": "14:45",
+              "week_day": "Mardi",
+              "weeks": "all",
+              "session_type": "cours"
+            },
+            {
+              "start_time": "13:30",
+              "end_time": "14:45",
+              "week_day": "Jeudi",
+              "weeks": "all",
+              "session_type": "cours"
+            }
+          ]
+        }
+      },
+      "type": "required",
+      "extra_info": "Option Génie Logiciel"
+    },
+    {
+      "course": "Intelligence artificielle",
+      "schedule": {
+        "group_1": {
+          "instructor": "Y. BAKOUNY",
+          "slots": [
+            {
+              "start_time": "15:00",
+              "end_time": "16:15",
+              "week_day": "Mercredi",
+              "weeks": "all",
+              "session_type": "cours"
+            },
+            {
+              "start_time": "15:00",
+              "end_time": "16:15",
+              "week_day": "Jeudi",
+              "weeks": "all",
+              "session_type": "cours"
+            }
+          ]
+        },
+        "group_2": {
+          "instructor": "Y. BAKOUNY",
+          "slots": [
+            {
+              "start_time": "09:30",
+              "end_time": "10:45",
+              "week_day": "Jeudi",
+              "weeks": "all",
+              "session_type": "cours"
+            },
+            {
+              "start_time": "11:00",
+              "end_time": "12:15",
+              "week_day": "Jeudi",
+              "weeks": "all",
+              "session_type": "cours"
+            }
+          ]
+        }
+      },
+      "type": "required",
+      "extra_info": "Option Génie Logiciel"
+    },
+    {
+      "course": "Architecture des ordinateurs",
+      "schedule": {
+        "group_1": {
+          "instructor": "T. YAACOUB",
+          "slots": [
+            {
+              "start_time": "13:30",
+              "end_time": "14:45",
+              "week_day": "Mercredi",
+              "weeks": "all",
+              "session_type": "cours"
+            },
+            {
+              "start_time": "13:30",
+              "end_time": "14:45",
+              "week_day": "Jeudi",
+              "weeks": "all",
+              "session_type": "cours"
+            }
+          ]
+        },
+        "group_2": {
+          "instructor": "T. YAACOUB",
+          "slots": [
+            {
+              "start_time": "11:00",
+              "end_time": "12:15",
+              "week_day": "Mardi",
+              "weeks": "all",
+              "session_type": "cours"
+            },
+            {
+              "start_time": "15:00",
+              "end_time": "16:15",
+              "week_day": "Jeudi",
+              "weeks": "all",
+              "session_type": "cours"
+            }
+          ]
+        }
+      },
+      "type": "required",
+      "extra_info": "Option Génie Logiciel"
+    },
+    {
+      "course": "Systèmes à microprocesseurs ",
+      "schedule": {
+        "group_1": {
+          "instructor": "A. CHKAIBANE",
+          "slots": [
+            {
+              "start_time": "16:30",
+              "end_time": "17:45",
+              "week_day": "Mardi",
+              "weeks": "01-08",
+              "session_type": "cours"
+            },
+            {
+              "start_time": "18:00",
+              "end_time": "19:15",
+              "week_day": "Mardi",
+              "weeks": "01-08",
+              "session_type": "cours"
+            },
+            {
+              "start_time": "16:30",
+              "end_time": "19:15",
+              "week_day": "Mardi",
+              "weeks": "09-12",
+              "session_type": "Projet en labo"
+            },
+            {
+              "start_time": "18:00",
+              "end_time": "19:15",
+              "week_day": "Jeudi",
+              "weeks": "01-08",
+              "session_type": "cours"
+            },
+            {
+              "start_time": "16:30",
+              "end_time": "19:15",
+              "week_day": "Jeudi",
+              "weeks": "09-12",
+              "session_type": "Projet en labo"
+            }
+          ]
+        }
+      },
+      "type": "required",
+      "extra_info": "Option Réseaux de Télécommunications"
+    },
+    {
+      "course": "Communications sans-fil",
+      "schedule": {
+        "group_1": {
+          "instructor": "M.HELOU",
+          "slots": [
+            {
+              "start_time": "11:00",
+              "end_time": "12:15",
+              "week_day": "Mercredi",
+              "weeks": "all",
+              "session_type": "cours"
+            },
+            {
+              "start_time": "13:30",
+              "end_time": "14:45",
+              "week_day": "Mercredi",
+              "weeks": "all",
+              "session_type": "cours"
+            }
+          ]
+        }
+      },
+      "type": "required",
+      "extra_info": "Option Réseaux de Télécommunications"
+    },
+    {
+      "course": "Propagation guidee et antennes",
+      "schedule": {
+        "group_1": {
+          "instructor": "E.RACHID",
+          "slots": [
+            {
+              "start_time": "13:30",
+              "end_time": "14:45",
+              "week_day": "Jeudi",
+              "weeks": "all",
+              "session_type": "cours"
+            },
+            {
+              "start_time": "08:00",
+              "end_time": "09:30",
+              "week_day": "Vendredi",
+              "weeks": "all",
+              "session_type": "cours"
+            }
+          ]
+        }
+      },
+      "type": "required",
+      "extra_info": "Option Réseaux de Télécommunications"
+    },
+    {
+      "course": "Traitement numérique du signal",
+      "schedule": {
+        "group_1": {
+          "instructor": "R. MOAWAD",
+          "slots": [
+            {
+              "start_time": "09:30",
+              "end_time": "10:45",
+              "week_day": "Vendredi",
+              "weeks": "all",
+              "session_type": "cours"
+            },
+            {
+              "start_time": "11:00",
+              "end_time": "12:15",
+              "week_day": "Vendredi",
+              "weeks": "all",
+              "session_type": "cours"
+            }
+          ]
+        }
+      },
+      "type": "required",
+      "extra_info": "Option Réseaux de Télécommunications"
+    }
+      ],
+      "5":[
+          {
+          "course": "Intégration des applications d'entreprises ",
+          "extra_info":"Option Génie Logiciel",
+          "schedule": {
+            "group_1": {
+              "instructor": "R. ASSAF",
+              "slots": [
+                {
+                  "start_time": "08:00",
+                  "end_time": "09:15",
+                  "week_day": "Lundi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "09:30",
+                  "end_time": "10:45",
+                  "week_day": "Lundi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                }
+              ]
+            }
+          },
+          "type" :"required"
+        },
+        {
+          "course": "Programmation parallèle",
+          "extra_info":"Option Génie Logiciel",
+          "schedule": {
+            "group_1": {
+              "instructor": "M. CHAMOUN",
+              "slots": [
+                {
+                  "start_time": "08:00",
+                  "end_time": "09:15",
+                  "week_day": "Mardi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "08:00",
+                  "end_time": "09:15",
+                  "week_day": "Jeudi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                }
+              ]
+            }
+          },
+          "type":"required"
+        },
+        {
+          "course": "Qualité de service dans les réseaux",
+          "extra_info":"Option Réseaux de Télécommunications",
+          "schedule": {
+            "group_1": {
+              "instructor": "J. RAYESS",
+              "slots": [
+                {
+                  "start_time": "09:30",
+                  "end_time": "10:45",
+                  "week_day": "Lundi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "13:30",
+                  "end_time": "14:45",
+                  "week_day": "Mardi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                }
+              ]
+            }
+          },
+          "type":"required"
+        },
+        {
+          "course": "Virologie informatique",
+          "extra_info":"Option Génie Logiciel",
+          "schedule": {
+            "group_1": {
+              "instructor": "M. CHAMOUN",
+              "slots": [
+                {
+                  "start_time": "09:30",
+                  "end_time": "10:45",
+                  "week_day": "Mardi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "11:00",
+                  "end_time": "12:15",
+                  "week_day": "Mardi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                }
+              ]
+            }
+          },
+          "type":"required"
+        },
+        {
+          "course": "Management",
+          "schedule": {
+            "group_1": {
+              "instructor": "H. BAIRAMIAN",
+              "slots": [
+                {
+                  "start_time": "09:30",
+                  "end_time": "10:45",
+                  "week_day": "Jeudi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                }
+                ]
+              },
+              "group_2": {
+              "instructor": "H. BAIRAMIAN",
+              "slots": [
+                {
+                  "start_time": "11:00",
+                  "end_time": "12:15",
+                  "week_day": "Jeudi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                }
+                ]
+              }
+        
+          },
+          "type":"required"
+        },
+        {
+          "course": "Technologies de l'internet des objets",
+          "schedule": {
+            "group_1": {
+              "instructor": "M. HELOU, J. RAYESS",
+              "slots": [
+                {
+                  "start_time": "09:30",
+                  "end_time": "10:45",
+                  "week_day": "Vendredi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "11:00",
+                  "end_time": "12:15",
+                  "week_day": "Vendredi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                }
+              ]
+            }
+          },
+          "type":"optional"
+        },
+        {
+          "course": "Ingénierie des réseaux",
+          "extra_info":"Option Réseaux de Télécommunications",
+          "schedule": {
+            "group_1": {
+              "instructor": "M. HELOU",
+              "slots": [
+                {
+                  "start_time": "11:00",
+                  "end_time": "12:15",
+                  "week_day": "Lundi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "15:00",
+                  "end_time": "16:15",
+                  "week_day": "Mardi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                }
+              ]
+            }
+          },
+          "type":"required"
+        },
+        {
+          "course": "Droit",
+          "type":"required",
+          "schedule": {
+            "group_1": {
+              "instructor": "F.FARAH",
+              "slots": [
+                {
+                  "start_time": "11:00",
+                  "end_time": "12:15",
+                  "week_day": "Jeudi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                }
+              ]
+            },
+              "group_2": {
+              "instructor": "F.FARAH",
+              "slots": [
+                {
+                  "start_time": "09:30",
+                  "end_time": "10:45",
+                  "week_day": "Jeudi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                }
+                
+              ]
+            }
+          }
+        },
+        {
+          "course": "Génie logiciel",
+          "type":"required",
+          "extra_info":"Option Génie Logiciel",
+          "schedule": {
+            "group_1": {
+              "instructor": "R. KILANY CHAMOUN",
+              "slots": [
+                {
+                  "start_time": "11:00",
+                  "end_time": "12:15",
+                  "week_day": "Lundi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "13:30",
+                  "end_time": "14:45",
+                  "week_day": "Lundi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "course": "Conception de circuits imprimés",
+          "schedule": {
+            "group_1": {
+              "instructor": " R. MINA",
+              "slots": [
+                {
+                  "start_time": "13:30",
+                  "end_time": "14:45",
+                  "week_day": "Mardi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "15:00",
+                  "end_time": "16:15",
+                  "week_day": "Mardi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                }
+              ]
+            }
+          },
+          "type":"optional"
+        },
+        {
+          "course": "Comptabilité",
+          "type":"required",
+          "schedule": {
+            "group_1": {
+              "instructor": "Z. HAKIM RAHME",
+              "slots": [
+                {
+                  "start_time": "13:30",
+                  "end_time": "14:45",
+                  "week_day": "Jeudi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "15:00",
+                  "end_time": "16:15",
+                  "week_day": "Jeudi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                }
+              ]
+            },
+            "group_2": {
+              "instructor": "Z. HAKIM RAHME",
+              "slots": [
+                {
+                  "start_time": "13:30",
+                  "end_time": "14:45",
+                  "week_day": "Vendredi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "15:00",
+                  "end_time": "16:15",
+                  "week_day": "Vendredi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "course": "Intégration et déploiment continu",
+          "extra_info": "Mixte(en ligne et presentiel)",
+          "schedule": {
+            "group_1": {
+              "instructor": "N. HENOUD, T. FAKHRY",
+              "slots": [
+                {
+                  "start_time": "15:00",
+                  "end_time": "16:15",
+                  "week_day": "Lundi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "16:30",
+                  "end_time": "17:45",
+                  "week_day": "Lundi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                }
+              ]
+            },
+             "group_2": {
+              "instructor": "N. HENOUD, T. FAKHRY",
+              "slots": [
+
+                {
+                  "start_time": "09:30",
+                  "end_time": "10:45",
+                  "week_day": "Vendredi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "11:00",
+                  "end_time": "12:15",
+                  "week_day": "Vendredi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                }
+              ]
+            }
+          },
+          "type":"optional"
+        },
+        {
+          "course": "Cloud et transformation digitale",
+          "schedule": {
+            "group_1": {
+              "instructor": "M. SEIF AOUAD",
+              "slots": [
+                {
+                  "start_time": "15:00",
+                  "end_time": "16:15",
+                  "week_day": "Mercredi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "16:30",
+                  "end_time": "17:45",
+                  "week_day": "Mercredi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                }
+              ]
+            }
+          },
+          "type":"optional"
+        },
+        {
+          "course": "Réseaux d'entreprise sécurisés",
+          "extra_info":"Option Réseaux de Télécommunications",
+          "type":"required",
+          "schedule": {
+            "group_1": {
+              "instructor": " A. FEGHALY, R. BOUSTANI",
+              "slots": [
+                {
+                  "start_time": "16:30",
+                  "end_time": "17:45",
+                  "week_day": "Mardi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "18:00",
+                  "end_time": "19:15",
+                  "week_day": "Mardi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "course": "Piratage éthique",
+          "type":"optional",
+          "schedule": {
+            "group_1": {
+              "instructor": " M. CHAMOUN",
+              "slots": [
+            
+                {
+                  "start_time": "16:30",
+                  "end_time": "17:45",
+                  "week_day": "Jeudi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "18:00",
+                  "end_time": "19:15",
+                  "week_day": "Jeudi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "course": "Information security, standards and best practices",
+          "type":"optional",
+          "schedule": {
+            "group_1": {
+              "instructor": "J.-M. KAOUKABANI",
+              "slots": [
+                {
+                  "start_time": "16:30",
+                  "end_time": "17:45",
+                  "week_day": "Vendredi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "18:00",
+                  "end_time": "19:15",
+                  "week_day": "Vendredi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "course": "Conception de circuits imprimés",
+          "type":"optional",
+          "schedule": {
+            "group_1": {
+              "instructor": "R. MINA",
+              "slots": [
+                {
+                  "start_time": "13:30",
+                  "end_time": "14:45",
+                  "week_day": "Vendredi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "15:00",
+                  "end_time": "16:15",
+                  "week_day": "Vendredi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "course": "Théorie de l'info. du codage",
+          "type":"optional",
+          "schedule": {
+            "group_1": {
+              "instructor": "H. SAWAYA",
+              "slots": [
+                {
+                  "start_time": "13:30",
+                  "end_time": "14:45",
+                  "week_day": "Vendredi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "15:00",
+                  "end_time": "16:15",
+                  "week_day": "Vendredi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                }
+              ]
+            }
+          }
+        }
+      ]
+  }
+  },
+  "Computer and Communications Engineering": {
+    "program": "Computer and Communications Engineering",
+    "courses_by_semester": {
+      "1": [
+        {
+          "course": "Introduction to Data Networks",
+          "schedule": {
+            "group_1": {
+              "instructor": "J. FARES",
+              "slots": [
+                {
+                  "start_time": "08:00",
+                  "end_time": "09:15",
+                  "week_day": "Wednesday",
+                  "weeks": "all",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "09:30",
+                  "end_time": "10:45",
+                  "week_day": "Monday",
+                  "weeks": "all",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "11:00",
+                  "end_time": "12:15",
+                  "week_day": "Monday",
+                  "weeks": "all",
+                  "session_type": "cours"
+                }
+              ]
+            }
+          },
+          "type": "required"
+        },
+        {
+          "course": "Signal Theory",
+          "schedule": {
+            "group_1": {
+              "instructor": "T. YAACOUB",
+              "slots": [
+                {
+                  "start_time": "08:00",
+                  "end_time": "09:15",
+                  "week_day": "Friday",
+                  "weeks": "all",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "09:30",
+                  "end_time": "10:45",
+                  "week_day": "Friday",
+                  "weeks": "all",
+                  "session_type": "cours"
+                }
+              ]
+            }
+          },
+          "type": "required"
+        },
+        {
+          "course": "Statistics",
+          "schedule": {
+            "group_1": {
+              "instructor": "",
+              "slots": [
+                {
+                  "start_time": "09:30",
+                  "end_time": "10:45",
+                  "week_day": "Wednesday",
+                  "weeks": "all",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "11:00",
+                  "end_time": "12:15",
+                  "week_day": "Wednesday",
+                  "weeks": "all",
+                  "session_type": "cours"
+                }
+              ]
+            }
+          },
+          "type": "required"
+        },
+        {
+          "course": "Analog Electronics",
+          "schedule": {
+            "group_1": {
+              "instructor": "J. M. BACHA,F.KARAM",
+              "slots": [
+                {
+                  "start_time": "11:00",
+                  "end_time": "12:15",
+                  "week_day": "Vendredi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "13:30",
+                  "end_time": "14:45",
+                  "week_day": "Vendredi",
+                  "weeks": "all",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "16:30",
+                  "end_time": "17:45",
+                  "week_day": "Wednesday",
+                  "weeks": "all",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "15:00",
+                  "end_time": "16:15",
+                  "week_day": "Wednesday",
+                  "weeks": "paires",
+                  "session_type": "cours"
+                }
+              ]
+            }
+          },
+          "type": "required"
+        },
+        {
+          "course": "Project Management",
+          "schedule": {
+            "group_1": {
+              "instructor": "S. ELGHARIB",
+              "slots": [
+                {
+                  "start_time": "13:30",
+                  "end_time": "14:45",
+                  "week_day": "Monday",
+                  "weeks": "all",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "15:00",
+                  "end_time": "16:15",
+                  "week_day": "Monday",
+                  "weeks": "all",
+                  "session_type": "cours"
+                }
+              ]
+            }
+          },
+          "type": "required"
+        },
+        {
+          "course": "Object-Oriented Programming",
+          "schedule": {
+            "group_1": {
+              "instructor": "K. HARISS,J.RAYESS",
+              "slots": [
+                {
+                  "start_time": "13:30",
+                  "end_time": "14:45",
+                  "week_day": "Wednesday",
+                  "weeks": "impaires",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "15:00",
+                  "end_time": "16:15",
+                  "week_day": "Friday",
+                  "weeks": "all",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "16:30",
+                  "end_time": "17:45",
+                  "week_day": "Friday",
+                  "weeks": "all",
+                  "session_type": "cours"
+                }
+              ]
+            }
+          },
+          "type": "required"
+        },
+        {
+          "course": "Business economy",
+          "schedule": {
+            "group_1": {
+              "instructor": "J. EL HOKAYEM",
+              "slots": [
+                {
+                  "start_time": "16:30",
+                  "end_time": "17:45",
+                  "week_day": "Lundi",
+                  "weeks": "paires",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "18:00",
+                  "end_time": "19:15",
+                  "week_day": "Lundi",
+                  "weeks": "paires",
+                  "session_type": "cours"
+                }
+              ]
+            }
+          },
+          "type": "optional"
+        },
+        {
+          "course": "Financial markets and institutions",
+          "schedule": {
+            "group_1": {
+              "instructor": "J. EL HOKAYEM",
+              "slots": [
+                {
+                  "start_time": "16:30",
+                  "end_time": "17:45",
+                  "week_day": "Lundi",
+                  "weeks": "impaires",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "18:00",
+                  "end_time": "19:15",
+                  "week_day": "Lundi",
+                  "weeks": "impaires",
+                  "session_type": "cours"
+                }
+              ]
+            }
+          },
+          "type": "optional"
+        },
+        {
+          "course": "Work ready now",
+          "schedule": {
+            "group_1": {
+              "instructor": "C. MOUKAWAM DIB",
+              "slots": [
+                {
+                  "start_time": "16:30",
+                  "end_time": "17:45",
+                  "week_day": "Lundi",
+                  "weeks": "02-07",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "18:00",
+                  "end_time": "19:15",
+                  "week_day": "Lundi",
+                  "weeks": "02-07",
+                  "session_type": "cours"
+                }
+              ]
+            }
+          },
+          "type": "optional"
+        },
+        {
+          "course": "Work ready now",
+          "schedule": {
+            "group_1": {
+              "instructor": "P. NOM",
+              "slots": [
+                {
+                  "start_time": "16:30",
+                  "end_time": "17:45",
+                  "week_day": "Lundi",
+                  "weeks": "02-07",
+                  "session_type": "cours"
+                },
+                {
+                  "start_time": "18:00",
+                  "end_time": "19:15",
+                  "week_day": "Lundi",
+                  "weeks": "02-07",
+                  "session_type": "cours"
+                }
+              ]
+            }
+          },
+          "type": "optional"
+        },
+        {
+          "course": "Logistics and supply chain management",
+          "schedule": {
+            "group_1": {
+              "instructor": "M. EL HOKAYEM",
+              "slots": [
+                    {
+                      "start_time": "16:30",
+                      "end_time": "17:45",
+                      "week_day": "Lundi",
+                      "weeks": "paires",
+                      "session_type": "cours"
+                    },
+                    {
+                      "start_time": "18:00",
+                      "end_time": "19:15",
+                      "week_day": "Lundi",
+                      "weeks": "paires",
+                      "session_type": "cours"
+                    }
+              ]},
+                  "group_2": {
+                    "instructor": "M. EL HOKAYEM",
+                    "slots": [
+                    {
+                      "start_time": "16:30",
+                      "end_time": "17:45",
+                      "week_day": "Lundi",
+                      "weeks": "impaires",
+                      "session_type": "cours"
+                    },
+                    {
+                      "start_time": "18:00",
+                      "end_time": "19:15",
+                      "week_day": "Lundi",
+                      "weeks": "impaires",
+                      "session_type": "cours"
+                    }
+                  ]
+                  }
+            
+          },
+          "type": "optional"
+        }
+      ]
+    }
+  }
+}

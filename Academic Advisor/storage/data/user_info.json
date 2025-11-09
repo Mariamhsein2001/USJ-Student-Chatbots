@@ -1,0 +1,385 @@
+[
+  {
+    "user": "Celine",
+    "user_info": [
+      {
+        "department": "Département des Classes Préparatoires",
+        "program": "Programme Préparatoire Génie Informatique et Communications",
+        "status": "completed",
+        "current_semester": "",
+        "gpa": 12.1,
+        "enrollment_year": 2018,
+        "total_credits": 120,
+        "courses_taken": [
+          {"code": "020ANGNI1", "title": "Analyse générale", "grade": 12.0, "year_taken": 2018, "semester_taken": 1},
+          {"code": "020CHGNI1", "title": "Chimie générale", "grade": 13.0, "year_taken": 2018, "semester_taken": 1},
+          {"code": "020GSCNI1", "title": "Le génie au service de la communauté", "grade": 14.0, "year_taken": 2018, "semester_taken": 1},
+          {"code": "020MADNI1", "title": "Mathématiques discrètes", "grade": 11.5, "year_taken": 2018, "semester_taken": 1},
+          {"code": "020MC1NI1", "title": "Mécanique 1", "grade": 12.2, "year_taken": 2018, "semester_taken": 1},
+          {"code": "020SPHNI1", "title": "Signaux physiques", "grade": 13.1, "year_taken": 2018, "semester_taken": 1},
+          {"code": "OPTION-FERMEE-S1", "title": "Optionnelle Fermée", "grade": 15.0, "year_taken": 2018, "semester_taken": 1},
+
+          {"code": "020ALNNI2", "title": "Algèbre linéaire", "grade": 11.7, "year_taken": 2019, "semester_taken": 2},
+          {"code": "020AA1NI2", "title": "Analyse 1", "grade": 13.5, "year_taken": 2019, "semester_taken": 2},
+          {"code": "020INMNI2", "title": "Induction magnétique", "grade": 12.0, "year_taken": 2019, "semester_taken": 2},
+          {"code": "020IF1NI2", "title": "Informatique 1", "grade": 14.0, "year_taken": 2019, "semester_taken": 2},
+          {"code": "020TH1NI2", "title": "Thermodynamique 1", "grade": 10.5, "year_taken": 2019, "semester_taken": 2},
+          {"code": "020PP1NI2", "title": "Travaux pratiques de physique 1", "grade": 13.0, "year_taken": 2019, "semester_taken": 2},
+          {"code": "OPTION-OUVERTE-S2", "title": "Optionnelle Ouverte", "grade": 15.0, "year_taken": 2019, "semester_taken": 2},
+
+          {"code": "020ALBNI3", "title": "Algèbre bilinéaire et géométrie", "grade": 13.0, "year_taken": 2020, "semester_taken": 3},
+          {"code": "020AN2NI4", "title": "Analyse 2", "grade": 12.0, "year_taken": 2020, "semester_taken": 4},
+          {"code": "020EMENI3", "title": "Electromagnétisme", "grade": 14.0, "year_taken": 2020, "semester_taken": 3},
+          {"code": "020IF2NI3", "title": "Informatique 2", "grade": 13.3, "year_taken": 2020, "semester_taken": 3},
+          {"code": "020MC2NI3", "title": "Mécanique 2", "grade": 12.6, "year_taken": 2020, "semester_taken": 3},
+          {"code": "020OPTNI3", "title": "Optique ondulatoire", "grade": 13.2, "year_taken": 2020, "semester_taken": 3},
+          {"code": "020PRBNI4", "title": "Probabilité", "grade": 12.8, "year_taken": 2020, "semester_taken": 4},
+          {"code": "020PP2NI3", "title": "Travaux pratiques de physique 2", "grade": 14.0, "year_taken": 2020, "semester_taken": 3},
+
+          {"code": "020CDFNI4", "title": "Calculs différentiels", "grade": 13.5, "year_taken": 2021, "semester_taken": 4},
+          {"code": "020IF3NI4", "title": "Informatique 3", "grade": 12.5, "year_taken": 2021, "semester_taken": 4},
+          {"code": "020MATNI4", "title": "MATLAB", "grade": 15.0, "year_taken": 2021, "semester_taken": 4},
+          {"code": "020PIINI4", "title": "Projet d’initiation à l’ingénierie", "grade": 14.0, "year_taken": 2021, "semester_taken": 4},
+          {"code": "020SRLNI4", "title": "Systèmes et réseaux électriques linéaires", "grade": 11.9, "year_taken": 2021, "semester_taken": 4},
+          {"code": "020TEDNI4", "title": "Techniques digitales", "grade": 13.0, "year_taken": 2021, "semester_taken": 4},
+          {"code": "018RDLDL1", "title": "Les Religions dans leurs diversités", "grade": 16.0, "year_taken": 2021, "semester_taken": 4}
+        ]
+      },
+      {
+        "department": "Département Génie Électrique et Mécanique",
+        "program": "Programme Génie Informatique et Communications",
+        "current_semester": "1",
+        "status": "current",
+        "gpa": "",
+        "enrollment_year": 2022,
+        "total_credits": 0,
+        "courses_taken": []
+      }
+    ]
+  },
+  {
+  "user": "Bob",
+  "user_info": [
+    {
+      "department": "Département des Classes Préparatoires",
+      "program": "Programme Préparatoire Génie Informatique et Communications",
+      "status": "completed",
+      "current_semester": "",
+      "gpa": 12.1,
+      "enrollment_year": 2018,
+      "total_credits": 120,
+      "courses_taken": [
+        {"code": "020ANGNI1", "title": "Analyse générale", "grade": 12.0, "year_taken": 2018, "semester_taken": 1},
+        {"code": "020CHGNI1", "title": "Chimie générale", "grade": 13.0, "year_taken": 2018, "semester_taken": 1},
+        {"code": "020GSCNI1", "title": "Le génie au service de la communauté", "grade": 14.0, "year_taken": 2018, "semester_taken": 1},
+        {"code": "020MADNI1", "title": "Mathématiques discrètes", "grade": 11.5, "year_taken": 2018, "semester_taken": 1},
+        {"code": "020MC1NI1", "title": "Mécanique 1", "grade": 12.2, "year_taken": 2018, "semester_taken": 1},
+        {"code": "020SPHNI1", "title": "Signaux physiques", "grade": 13.1, "year_taken": 2018, "semester_taken": 1},
+        {"code": "OPTION-FERMEE-S1", "title": "Optionnelle Fermée", "grade": 15.0, "year_taken": 2018, "semester_taken": 1},
+
+        {"code": "020ALNNI2", "title": "Algèbre linéaire", "grade": 11.7, "year_taken": 2019, "semester_taken": 2},
+        {"code": "020AA1NI2", "title": "Analyse 1", "grade": 13.5, "year_taken": 2019, "semester_taken": 2},
+        {"code": "020INMNI2", "title": "Induction magnétique", "grade": 12.0, "year_taken": 2019, "semester_taken": 2},
+        {"code": "020IF1NI2", "title": "Informatique 1", "grade": 14.0, "year_taken": 2019, "semester_taken": 2},
+        {"code": "020TH1NI2", "title": "Thermodynamique 1", "grade": 10.5, "year_taken": 2019, "semester_taken": 2},
+        {"code": "020PP1NI2", "title": "Travaux pratiques de physique 1", "grade": 13.0, "year_taken": 2019, "semester_taken": 2},
+        {"code": "OPTION-OUVERTE-S2", "title": "Optionnelle Ouverte", "grade": 15.0, "year_taken": 2019, "semester_taken": 2},
+
+        {"code": "020ALBNI3", "title": "Algèbre bilinéaire et géométrie", "grade": 13.0, "year_taken": 2020, "semester_taken": 3},
+        {"code": "020AN2NI4", "title": "Analyse 2", "grade": 12.0, "year_taken": 2020, "semester_taken": 4},
+        {"code": "020EMENI3", "title": "Electromagnétisme", "grade": 14.0, "year_taken": 2020, "semester_taken": 3},
+        {"code": "020IF2NI3", "title": "Informatique 2", "grade": 13.3, "year_taken": 2020, "semester_taken": 3},
+        {"code": "020MC2NI3", "title": "Mécanique 2", "grade": 12.6, "year_taken": 2020, "semester_taken": 3},
+        {"code": "020OPTNI3", "title": "Optique ondulatoire", "grade": 13.2, "year_taken": 2020, "semester_taken": 3},
+        {"code": "020PRBNI4", "title": "Probabilité", "grade": 12.8, "year_taken": 2020, "semester_taken": 4},
+        {"code": "020PP2NI3", "title": "Travaux pratiques de physique 2", "grade": 14.0, "year_taken": 2020, "semester_taken": 3},
+
+        {"code": "020CDFNI4", "title": "Calculs différentiels", "grade": 13.5, "year_taken": 2021, "semester_taken": 4},
+        {"code": "020IF3NI4", "title": "Informatique 3", "grade": 12.5, "year_taken": 2021, "semester_taken": 4},
+        {"code": "020MATNI4", "title": "MATLAB", "grade": 15.0, "year_taken": 2021, "semester_taken": 4},
+        {"code": "020PIINI4", "title": "Projet d’initiation à l’ingénierie", "grade": 14.0, "year_taken": 2021, "semester_taken": 4},
+        {"code": "020SRLNI4", "title": "Systèmes et réseaux électriques linéaires", "grade": 11.9, "year_taken": 2021, "semester_taken": 4},
+        {"code": "020TEDNI4", "title": "Techniques digitales", "grade": 13.0, "year_taken": 2021, "semester_taken": 4},
+        {"code": "018RDLDL1", "title": "Les Religions dans leurs diversités", "grade": 16.0, "year_taken": 2021, "semester_taken": 4}
+      ]
+    },
+    {
+      "department": "Département Génie Électrique et Mécanique",
+      "program": "Programme Génie Informatique et Communications",
+      "current_semester": 3,
+      "status": "current",
+      "gpa": 14.1,
+      "enrollment_year": 2022,
+      "total_credits": 64,
+      "track":"Génie Logiciel",
+      "courses_taken": [
+        {"code": "020ELAES1", "title": "Electronique analogique", "grade": 14.0, "credits": 6, "year_taken": 2022, "semester_taken": 1},
+        {"code": "020GPRES2", "title": "Gestion de projets", "grade": 13.5, "credits": 4, "year_taken": 2022, "semester_taken": 1},
+        {"code": "020INRES1", "title": "Introduction aux réseaux de données", "grade": 15.0, "credits": 6, "year_taken": 2022, "semester_taken": 1},
+        {"code": "020CPPES1", "title": "Programmation orientée objets", "grade": 14.5, "credits": 6, "year_taken": 2022, "semester_taken": 1},
+        {"code": "020STAES1", "title": "Statistiques", "grade": 13.0, "credits": 4, "year_taken": 2022, "semester_taken": 1},
+        {"code": "020THSES2", "title": "Théorie du signal", "grade": 14.2, "credits": 4, "year_taken": 2022, "semester_taken": 1},
+        {"code": "020MARCS2", "title": "Marketing", "grade": 15.5, "credits": 2, "year_taken": 2022, "semester_taken": 1},
+
+        {"code": "020ADUES3", "title": "Administration Unix", "grade": 14.0, "credits": 4, "year_taken": 2023, "semester_taken": 2},
+        {"code": "020BDRES2", "title": "Bases de données relationnelles", "grade": 13.5, "credits": 4, "year_taken": 2023, "semester_taken": 2},
+        {"code": "020CONES3", "title": "Communications analogiques et numériques", "grade": 14.2, "credits": 6, "year_taken": 2023, "semester_taken": 2},
+        {"code": "020ELNES2", "title": "Electronique numérique", "grade": 13.8, "credits": 6, "year_taken": 2023, "semester_taken": 2},
+        {"code": "020RCOES2", "title": "Routage et commutation", "grade": 14.1, "credits": 4, "year_taken": 2023, "semester_taken": 2},
+        {"code": "020TCOES2", "title": "Techniques d'expression et de communication", "grade": 15.0, "credits": 2, "year_taken": 2023, "semester_taken": 2},
+        {"code": "020TROES2", "title": "Théorie des graphes et recherche opérationnelle", "grade": 13.7, "credits": 4, "year_taken": 2023, "semester_taken": 2},
+        {"code": null, "title": "للغة العربيّة والإعلام", "grade": 15.0, "credits": 2, "year_taken": 2023, "semester_taken": 2}
+
+      ]
+    }
+  ]
+},
+  {
+  "user": "Alice",
+  "user_info": [
+    {
+      "department": "Département des Classes Préparatoires",
+      "program": "Programme Préparatoire Génie Informatique et Communications",
+      "status": "completed",
+      "current_semester": "",
+      "gpa": 12.1,
+      "enrollment_year": 2018,
+      "total_credits": 120,
+      "courses_taken": [
+        {"code": "020ANGNI1", "title": "Analyse générale", "grade": 12.0, "year_taken": 2018, "semester_taken": 1},
+        {"code": "020CHGNI1", "title": "Chimie générale", "grade": 13.0, "year_taken": 2018, "semester_taken": 1},
+        {"code": "020GSCNI1", "title": "Le génie au service de la communauté", "grade": 14.0, "year_taken": 2018, "semester_taken": 1},
+        {"code": "020MADNI1", "title": "Mathématiques discrètes", "grade": 11.5, "year_taken": 2018, "semester_taken": 1},
+        {"code": "020MC1NI1", "title": "Mécanique 1", "grade": 12.2, "year_taken": 2018, "semester_taken": 1},
+        {"code": "020SPHNI1", "title": "Signaux physiques", "grade": 13.1, "year_taken": 2018, "semester_taken": 1},
+        {"code": "OPTION-FERMEE-S1", "title": "Optionnelle Fermée", "grade": 15.0, "year_taken": 2018, "semester_taken": 1},
+
+        {"code": "020ALNNI2", "title": "Algèbre linéaire", "grade": 11.7, "year_taken": 2019, "semester_taken": 2},
+        {"code": "020AA1NI2", "title": "Analyse 1", "grade": 13.5, "year_taken": 2019, "semester_taken": 2},
+        {"code": "020INMNI2", "title": "Induction magnétique", "grade": 12.0, "year_taken": 2019, "semester_taken": 2},
+        {"code": "020IF1NI2", "title": "Informatique 1", "grade": 14.0, "year_taken": 2019, "semester_taken": 2},
+        {"code": "020TH1NI2", "title": "Thermodynamique 1", "grade": 10.5, "year_taken": 2019, "semester_taken": 2},
+        {"code": "020PP1NI2", "title": "Travaux pratiques de physique 1", "grade": 13.0, "year_taken": 2019, "semester_taken": 2},
+        {"code": "OPTION-OUVERTE-S2", "title": "Optionnelle Ouverte", "grade": 15.0, "year_taken": 2019, "semester_taken": 2},
+
+        {"code": "020ALBNI3", "title": "Algèbre bilinéaire et géométrie", "grade": 13.0, "year_taken": 2020, "semester_taken": 3},
+        {"code": "020AN2NI4", "title": "Analyse 2", "grade": 12.0, "year_taken": 2020, "semester_taken": 4},
+        {"code": "020EMENI3", "title": "Electromagnétisme", "grade": 14.0, "year_taken": 2020, "semester_taken": 3},
+        {"code": "020IF2NI3", "title": "Informatique 2", "grade": 13.3, "year_taken": 2020, "semester_taken": 3},
+        {"code": "020MC2NI3", "title": "Mécanique 2", "grade": 12.6, "year_taken": 2020, "semester_taken": 3},
+        {"code": "020OPTNI3", "title": "Optique ondulatoire", "grade": 13.2, "year_taken": 2020, "semester_taken": 3},
+        {"code": "020PRBNI4", "title": "Probabilité", "grade": 12.8, "year_taken": 2020, "semester_taken": 4},
+        {"code": "020PP2NI3", "title": "Travaux pratiques de physique 2", "grade": 14.0, "year_taken": 2020, "semester_taken": 3},
+
+        {"code": "020CDFNI4", "title": "Calculs différentiels", "grade": 13.5, "year_taken": 2021, "semester_taken": 4},
+        {"code": "020IF3NI4", "title": "Informatique 3", "grade": 12.5, "year_taken": 2021, "semester_taken": 4},
+        {"code": "020MATNI4", "title": "MATLAB", "grade": 15.0, "year_taken": 2021, "semester_taken": 4},
+        {"code": "020PIINI4", "title": "Projet d’initiation à l’ingénierie", "grade": 14.0, "year_taken": 2021, "semester_taken": 4},
+        {"code": "020SRLNI4", "title": "Systèmes et réseaux électriques linéaires", "grade": 11.9, "year_taken": 2021, "semester_taken": 4},
+        {"code": "020TEDNI4", "title": "Techniques digitales", "grade": 13.0, "year_taken": 2021, "semester_taken": 4},
+        {"code": "018RDLDL1", "title": "Les Religions dans leurs diversités", "grade": 16.0, "year_taken": 2021, "semester_taken": 4}
+      ]
+    },
+    {
+  "department": "Département Génie Électrique et Mécanique",
+  "program": "Programme Génie Informatique et Communications",
+  "current_semester": 3,
+  "status": "current",
+  "gpa": 15,
+  "enrollment_year": 2022,
+  "total_credits": 64,
+  "track": "Réseaux de Télécommunications",
+  "courses_taken": [
+    {"code": "020ELAES1", "title": "Electronique analogique", "grade": 9.0, "credits": 6, "year_taken": 2022, "semester_taken": 1},
+    {"code": "020GPRES2", "title": "Gestion de projets", "grade": 13.5, "credits": 4, "year_taken": 2022, "semester_taken": 1},
+    {"code": "020INRES1", "title": "Introduction aux réseaux de données", "grade": 15.0, "credits": 6, "year_taken": 2022, "semester_taken": 1},
+    {"code": "020CPPES1", "title": "Programmation orientée objets", "grade": 14.5, "credits": 6, "year_taken": 2022, "semester_taken": 1},
+    {"code": "020STAES1", "title": "Statistiques", "grade": 13.0, "credits": 4, "year_taken": 2022, "semester_taken": 1},
+    {"code": "020THSES2", "title": "Théorie du signal", "grade": 14.2, "credits": 4, "year_taken": 2022, "semester_taken": 1},
+    {"code": "020MARCS2", "title": "Marketing", "grade": 15.5, "credits": 2, "year_taken": 2022, "semester_taken": 1},
+
+    {"code": "020ADUES3", "title": "Administration Unix", "grade": 14.0, "credits": 4, "year_taken": 2023, "semester_taken": 2},
+    {"code": "020BDRES2", "title": "Bases de données relationnelles", "grade": 13.5, "credits": 4, "year_taken": 2023, "semester_taken": 2},
+    {"code": "020CONES3", "title": "Communications analogiques et numériques", "grade": 14.2, "credits": 6, "year_taken": 2023, "semester_taken": 2},
+    {"code": "020ELNES2", "title": "Electronique numérique", "grade": 10.0, "credits": 6, "year_taken": 2023, "semester_taken": 2},
+    {"code": "020RCOES2", "title": "Routage et commutation", "grade": 14.1, "credits": 4, "year_taken": 2023, "semester_taken": 2},
+    {"code": "020TCOES2", "title": "Techniques d'expression et de communication", "grade": 15.0, "credits": 2, "year_taken": 2023, "semester_taken": 2},
+    {"code": "020TROES2", "title": "Théorie des graphes et recherche opérationnelle", "grade": 13.7, "credits": 4, "year_taken": 2023, "semester_taken": 2},
+    {"code": null, "title": "للغة العربيّة والإعلام", "grade": 15.0, "credits": 2, "year_taken": 2023, "semester_taken": 2}
+
+  ]
+  }
+]
+},
+{
+  "user": "Karim",
+  "user_info": [
+        {
+      "department": "Département des Classes Préparatoires",
+      "program": "Programme Préparatoire Génie Informatique et Communications",
+      "status": "completed",
+      "current_semester": "",
+      "gpa": 12.1,
+      "enrollment_year": 2018,
+      "total_credits": 120,
+      "courses_taken": [
+        {"code": "020ANGNI1", "title": "Analyse générale", "grade": 12.0, "year_taken": 2018, "semester_taken": 1},
+        {"code": "020CHGNI1", "title": "Chimie générale", "grade": 13.0, "year_taken": 2018, "semester_taken": 1},
+        {"code": "020GSCNI1", "title": "Le génie au service de la communauté", "grade": 14.0, "year_taken": 2018, "semester_taken": 1},
+        {"code": "020MADNI1", "title": "Mathématiques discrètes", "grade": 11.5, "year_taken": 2018, "semester_taken": 1},
+        {"code": "020MC1NI1", "title": "Mécanique 1", "grade": 12.2, "year_taken": 2018, "semester_taken": 1},
+        {"code": "020SPHNI1", "title": "Signaux physiques", "grade": 13.1, "year_taken": 2018, "semester_taken": 1},
+        {"code": "OPTION-FERMEE-S1", "title": "Optionnelle Fermée", "grade": 15.0, "year_taken": 2018, "semester_taken": 1},
+
+        {"code": "020ALNNI2", "title": "Algèbre linéaire", "grade": 11.7, "year_taken": 2019, "semester_taken": 2},
+        {"code": "020AA1NI2", "title": "Analyse 1", "grade": 13.5, "year_taken": 2019, "semester_taken": 2},
+        {"code": "020INMNI2", "title": "Induction magnétique", "grade": 12.0, "year_taken": 2019, "semester_taken": 2},
+        {"code": "020IF1NI2", "title": "Informatique 1", "grade": 14.0, "year_taken": 2019, "semester_taken": 2},
+        {"code": "020TH1NI2", "title": "Thermodynamique 1", "grade": 10.5, "year_taken": 2019, "semester_taken": 2},
+        {"code": "020PP1NI2", "title": "Travaux pratiques de physique 1", "grade": 13.0, "year_taken": 2019, "semester_taken": 2},
+        {"code": "OPTION-OUVERTE-S2", "title": "Optionnelle Ouverte", "grade": 15.0, "year_taken": 2019, "semester_taken": 2},
+
+        {"code": "020ALBNI3", "title": "Algèbre bilinéaire et géométrie", "grade": 13.0, "year_taken": 2020, "semester_taken": 3},
+        {"code": "020AN2NI4", "title": "Analyse 2", "grade": 12.0, "year_taken": 2020, "semester_taken": 4},
+        {"code": "020EMENI3", "title": "Electromagnétisme", "grade": 14.0, "year_taken": 2020, "semester_taken": 3},
+        {"code": "020IF2NI3", "title": "Informatique 2", "grade": 13.3, "year_taken": 2020, "semester_taken": 3},
+        {"code": "020MC2NI3", "title": "Mécanique 2", "grade": 12.6, "year_taken": 2020, "semester_taken": 3},
+        {"code": "020OPTNI3", "title": "Optique ondulatoire", "grade": 13.2, "year_taken": 2020, "semester_taken": 3},
+        {"code": "020PRBNI4", "title": "Probabilité", "grade": 12.8, "year_taken": 2020, "semester_taken": 4},
+        {"code": "020PP2NI3", "title": "Travaux pratiques de physique 2", "grade": 14.0, "year_taken": 2020, "semester_taken": 3},
+
+        {"code": "020CDFNI4", "title": "Calculs différentiels", "grade": 13.5, "year_taken": 2021, "semester_taken": 4},
+        {"code": "020IF3NI4", "title": "Informatique 3", "grade": 12.5, "year_taken": 2021, "semester_taken": 4},
+        {"code": "020MATNI4", "title": "MATLAB", "grade": 15.0, "year_taken": 2021, "semester_taken": 4},
+        {"code": "020PIINI4", "title": "Projet d’initiation à l’ingénierie", "grade": 14.0, "year_taken": 2021, "semester_taken": 4},
+        {"code": "020SRLNI4", "title": "Systèmes et réseaux électriques linéaires", "grade": 11.9, "year_taken": 2021, "semester_taken": 4},
+        {"code": "020TEDNI4", "title": "Techniques digitales", "grade": 13.0, "year_taken": 2021, "semester_taken": 4},
+        {"code": "018RDLDL1", "title": "Les Religions dans leurs diversités", "grade": 16.0, "year_taken": 2021, "semester_taken": 4}
+      ]
+    },
+    {
+  "department": "Département Génie Électrique et Mécanique",
+  "program": "Programme Génie Informatique et Communications",
+  "status": "current",
+  "current_semester": 3,
+  "gpa": 10.8,
+  "enrollment_year": 2022,
+  "total_credits": 34,
+  "track": "Réseaux de Télécommunications",
+  "courses_taken": [
+    {"code": "020ELAES1", "title": "Electronique analogique", "grade": 8.5, "credits": 6, "year_taken": 2022, "semester_taken": 1},
+    {"code": "020GPRES2", "title": "Gestion de projets", "grade": 11.0, "credits": 4, "year_taken": 2022, "semester_taken": 1},
+    {"code": "020INRES1", "title": "Introduction aux réseaux de données", "grade": 12.0, "credits": 6, "year_taken": 2022, "semester_taken": 1},
+    {"code": "020CPPES1", "title": "Programmation orientée objets", "grade": 10.5, "credits": 6, "year_taken": 2022, "semester_taken": 1},
+    {"code": "020STAES1", "title": "Statistiques", "grade": 9.5, "credits": 4, "year_taken": 2022, "semester_taken": 1},
+    {"code": "020MARCS2", "title": "Marketing", "grade": 12.0, "credits": 2, "year_taken": 2022, "semester_taken": 1},
+
+    {"code": "020ADUES3", "title": "Administration Unix", "grade": 11.0, "credits": 4, "year_taken": 2023, "semester_taken": 2},
+    {"code": "020BDRES2", "title": "Bases de données relationnelles", "grade": 9.0, "credits": 4, "year_taken": 2023, "semester_taken": 2},
+    {"code": "020CONES3", "title": "Communications analogiques et numériques", "grade": 10.5, "credits": 6, "year_taken": 2023, "semester_taken": 2},
+    {"code": "020ELNES2", "title": "Electronique numérique", "grade": 8.0, "credits": 6, "year_taken": 2023, "semester_taken": 2},
+    {"code": "020RCOES2", "title": "Routage et commutation", "grade": 11.5, "credits": 4, "year_taken": 2023, "semester_taken": 2},
+    {"code": "020TROES2", "title": "Théorie des graphes et recherche opérationnelle", "grade": 9.5, "credits": 4, "year_taken": 2023, "semester_taken": 2},
+    {"code": null, "title": "للغة العربيّة والإعلام", "grade": 12.0, "credits": 2, "year_taken": 2023, "semester_taken": 2}
+  ]
+}
+  ]
+},
+{
+  "user": "Leila",
+  "user_info": [
+        {
+      "department": "Département des Classes Préparatoires",
+      "program": "Programme Préparatoire Génie Informatique et Communications",
+      "status": "completed",
+      "current_semester": "",
+      "gpa": 12.1,
+      "enrollment_year": 2018,
+      "total_credits": 120,
+      "courses_taken": [
+        {"code": "020ANGNI1", "title": "Analyse générale", "grade": 12.0, "year_taken": 2018, "semester_taken": 1},
+        {"code": "020CHGNI1", "title": "Chimie générale", "grade": 13.0, "year_taken": 2018, "semester_taken": 1},
+        {"code": "020GSCNI1", "title": "Le génie au service de la communauté", "grade": 14.0, "year_taken": 2018, "semester_taken": 1},
+        {"code": "020MADNI1", "title": "Mathématiques discrètes", "grade": 11.5, "year_taken": 2018, "semester_taken": 1},
+        {"code": "020MC1NI1", "title": "Mécanique 1", "grade": 12.2, "year_taken": 2018, "semester_taken": 1},
+        {"code": "020SPHNI1", "title": "Signaux physiques", "grade": 13.1, "year_taken": 2018, "semester_taken": 1},
+        {"code": "OPTION-FERMEE-S1", "title": "Optionnelle Fermée", "grade": 15.0, "year_taken": 2018, "semester_taken": 1},
+
+        {"code": "020ALNNI2", "title": "Algèbre linéaire", "grade": 11.7, "year_taken": 2019, "semester_taken": 2},
+        {"code": "020AA1NI2", "title": "Analyse 1", "grade": 13.5, "year_taken": 2019, "semester_taken": 2},
+        {"code": "020INMNI2", "title": "Induction magnétique", "grade": 12.0, "year_taken": 2019, "semester_taken": 2},
+        {"code": "020IF1NI2", "title": "Informatique 1", "grade": 14.0, "year_taken": 2019, "semester_taken": 2},
+        {"code": "020TH1NI2", "title": "Thermodynamique 1", "grade": 10.5, "year_taken": 2019, "semester_taken": 2},
+        {"code": "020PP1NI2", "title": "Travaux pratiques de physique 1", "grade": 13.0, "year_taken": 2019, "semester_taken": 2},
+        {"code": "OPTION-OUVERTE-S2", "title": "Optionnelle Ouverte", "grade": 15.0, "year_taken": 2019, "semester_taken": 2},
+
+        {"code": "020ALBNI3", "title": "Algèbre bilinéaire et géométrie", "grade": 13.0, "year_taken": 2020, "semester_taken": 3},
+        {"code": "020AN2NI4", "title": "Analyse 2", "grade": 12.0, "year_taken": 2020, "semester_taken": 4},
+        {"code": "020EMENI3", "title": "Electromagnétisme", "grade": 14.0, "year_taken": 2020, "semester_taken": 3},
+        {"code": "020IF2NI3", "title": "Informatique 2", "grade": 13.3, "year_taken": 2020, "semester_taken": 3},
+        {"code": "020MC2NI3", "title": "Mécanique 2", "grade": 12.6, "year_taken": 2020, "semester_taken": 3},
+        {"code": "020OPTNI3", "title": "Optique ondulatoire", "grade": 13.2, "year_taken": 2020, "semester_taken": 3},
+        {"code": "020PRBNI4", "title": "Probabilité", "grade": 12.8, "year_taken": 2020, "semester_taken": 4},
+        {"code": "020PP2NI3", "title": "Travaux pratiques de physique 2", "grade": 14.0, "year_taken": 2020, "semester_taken": 3},
+
+        {"code": "020CDFNI4", "title": "Calculs différentiels", "grade": 13.5, "year_taken": 2021, "semester_taken": 4},
+        {"code": "020IF3NI4", "title": "Informatique 3", "grade": 12.5, "year_taken": 2021, "semester_taken": 4},
+        {"code": "020MATNI4", "title": "MATLAB", "grade": 15.0, "year_taken": 2021, "semester_taken": 4},
+        {"code": "020PIINI4", "title": "Projet d’initiation à l’ingénierie", "grade": 14.0, "year_taken": 2021, "semester_taken": 4},
+        {"code": "020SRLNI4", "title": "Systèmes et réseaux électriques linéaires", "grade": 11.9, "year_taken": 2021, "semester_taken": 4},
+        {"code": "020TEDNI4", "title": "Techniques digitales", "grade": 13.0, "year_taken": 2021, "semester_taken": 4},
+        {"code": "018RDLDL1", "title": "Les Religions dans leurs diversités", "grade": 16.0, "year_taken": 2021, "semester_taken": 4}
+      ]
+    },
+    {
+  "department": "Département Génie Électrique et Mécanique",
+  "program": "Programme Génie Informatique et Communications",
+  "status": "current",
+  "current_semester": 5,
+  "gpa": 13.8,
+  "enrollment_year": 2022,
+  "total_credits": 98,
+  "track": "Génie Logiciel",
+  "courses_taken": [
+    {"code": "020ELAES1", "title": "Electronique analogique", "grade": 14.0, "credits": 6, "year_taken": 2022, "semester_taken": 1},
+    {"code": "020GPRES2", "title": "Gestion de projets", "grade": 12.5, "credits": 4, "year_taken": 2022, "semester_taken": 1},
+    {"code": "020INRES1", "title": "Introduction aux réseaux de données", "grade": 10.0, "credits": 6, "year_taken": 2022, "semester_taken": 1},
+    {"code": "020STAES1", "title": "Statistiques", "grade": 9.0, "credits": 4, "year_taken": 2022, "semester_taken": 1},
+    {"code": "020THSES2", "title": "Théorie du signal", "grade": 11.5, "credits": 4, "year_taken": 2022, "semester_taken": 1},
+    {"code": null, "title": "Strategic Planning", "grade": 15.0, "credits": 2, "year_taken": 2022, "semester_taken": 1},
+
+    {"code": "020ADUES3", "title": "Administration Unix", "grade": 13.0, "credits": 4, "year_taken": 2023, "semester_taken": 2},
+    {"code": "020BDRES2", "title": "Bases de données relationnelles", "grade": 14.0, "credits": 4, "year_taken": 2023, "semester_taken": 2},
+    {"code": "020CONES3", "title": "Communications analogiques et numériques", "grade": 8.5, "credits": 6, "year_taken": 2023, "semester_taken": 2},
+    {"code": "020ELNES2", "title": "Electronique numérique", "grade": 13.0, "credits": 6, "year_taken": 2023, "semester_taken": 2},
+    {"code": "020RCOES2", "title": "Routage et commutation", "grade": 12.0, "credits": 4, "year_taken": 2023, "semester_taken": 2},
+    {"code": "020TCOES2", "title": "Techniques d'expression et de communication", "grade": 14.0, "credits": 2, "year_taken": 2023, "semester_taken": 2},
+    {"code": "020TROES2", "title": "Théorie des graphes et recherche opérationnelle", "grade": 13.0, "credits": 4, "year_taken": 2023, "semester_taken": 2},
+    {"code": null, "title": "Optionnelle Ouverte", "grade": 14.0, "credits": 2, "year_taken": 2023, "semester_taken": 2},
+
+    {"code": "020ETHES3", "title": "Ethique et entreprise", "grade": 13.5, "credits": 4, "year_taken": 2023, "semester_taken": 3},
+    {"code": "020INDES2", "title": "Innovation and design thinking", "grade": 14.0, "credits": 2, "year_taken": 2023, "semester_taken": 3},
+    {"code": "020SDAES3", "title": "Structures de données et algorithmes", "grade": 13.0, "credits": 4, "year_taken": 2023, "semester_taken": 3},
+    {"code": "020ADPES3", "title": "Analyse de projets", "grade": 9.5, "credits": 4, "year_taken": 2023, "semester_taken": 3},
+    {"code": "020AROES3", "title": "Architecture des ordinateurs", "grade": 13.0, "credits": 4, "year_taken": 2023, "semester_taken": 3},
+    {"code": "020MCOES3", "title": "Modèles de conception", "grade": 12.5, "credits": 4, "year_taken": 2023, "semester_taken": 3},
+    {"code": "020PWBES3", "title": "Programmation pour le Web", "grade": 13.0, "credits": 4, "year_taken": 2023, "semester_taken": 3},
+    {"code": "020PFSES3", "title": "Programmation fonctionnelle", "grade": 13.0, "credits": 4, "year_taken": 2023, "semester_taken": 3},
+
+    {"code": "020ANGES4", "title": "Anglais", "grade": 8.0, "credits": 4, "year_taken": 2023, "semester_taken": 4},
+    {"code": "020PRMES4", "title": "Projet Multidisciplinaire", "grade": 13.5, "credits": 6, "year_taken": 2023, "semester_taken": 4},
+    {"code": "020PCOES4", "title": "Principes des compilateurs", "grade": 13.0, "credits": 4, "year_taken": 2023, "semester_taken": 4},
+    {"code": "020SSEES4", "title": "Systèmes d'exploitation", "grade": 12.5, "credits": 4, "year_taken": 2023, "semester_taken": 4},
+    {"code": null, "title": "Optionnelle ouverte", "grade": 14.0, "credits": 2, "year_taken": 2023, "semester_taken": 4},
+    {"code": "020MMDES4", "title": "Mining massive datasets", "grade": 13.0, "credits": 4, "year_taken": 2023, "semester_taken": 4},
+    {"code": "020REMES4", "title": "Réseaux mobiles", "grade": 12.5, "credits": 4, "year_taken": 2023, "semester_taken": 4}
+  ]
+}
+
+
+  ]
+}
+
+
+
+  ]
