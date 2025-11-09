@@ -1,0 +1,118 @@
+[
+  {
+  "program": "Programme Génie Informatique et Communications",
+  "sections": [
+    {
+      "total_credits": 106,
+      "course_type": "UE Obligatoires",
+      "courses": [
+        { "title": "Anglais", "credits": 4 },
+        { "title": "Comptabilité", "credits": 4 },
+        { "title": "Droit", "credits": 2 },
+        { "title": "Ethique et entreprise", "credits": 4 },
+        { "title": "Gestion de projets", "credits": 4 },
+        { "title": "Innovation and design thinking", "credits": 2 },
+        { "title": "Management", "credits": 2 },
+        { "title": "Techniques d'expression et de communication", "credits": 2 },
+        { "title": "Administration Unix", "credits": 4 },
+        { "title": "Bases de données relationnelles", "credits": 4 },
+        { "title": "Communications analogiques et numériques", "credits": 6 },
+        { "title": "Electronique analogique", "credits": 6 },
+        { "title": "Electronique numérique", "credits": 6 },
+        { "title": "Introduction aux réseaux de données", "credits": 6 },
+        { "title": "Programmation orientée objets", "credits": 6 },
+        { "title": "Routage et commutation", "credits": 4 },
+        { "title": "Statistiques", "credits": 4 },
+        { "title": "Structures de données et algorithmes", "credits": 4 },
+        { "title": "Théorie des graphes et recherche opérationnelle", "credits": 4 },
+        { "title": "Théorie du signal", "credits": 4 }
+      ]
+    },
+    {
+      "total_credits": 44,
+      "course_type": "UE Obligatoires pour l’option-Génie Logiciel",
+          "courses": [
+            { "title": "Analyse de projets", "credits": 4 },
+            { "title": "Applications distribuées", "credits": 4 },
+            { "title": "Architecture des ordinateurs", "credits": 4 },
+            { "title": "Génie logiciel", "credits": 4 },
+            { "title": "Intégration des applications d'entreprises", "credits": 4 },
+            { "title": "Intelligence artificielle", "credits": 4 },
+            { "title": "Modèles de conception", "credits": 4 },
+            { "title": "Principes des compilateurs", "credits": 4 },
+            { "title": "Programmation parallèle", "credits": 4 },
+            { "title": "Systèmes d'exploitation", "credits": 4 },
+            { "title": "Virologie informatique", "credits": 4 }
+          ]
+        },
+        {
+      "total_credits": 44,
+      "course_type": "UE Obligatoires pour l’option-Réseaux de Télécommunications",
+          "courses": [
+            { "title": "Communications sans-fil", "credits": 4 },
+            { "title": "Ingénierie des réseaux", "credits": 4 },
+            { "title": "Performances des systèmes informatiques et des réseaux", "credits": 4 },
+            { "title": "Propagation guidée et antennes", "credits": 4 },
+            { "title": "Qualité de service dans les réseaux", "credits": 4 },
+            { "title": "Réseaux d’entreprise sécurisés", "credits": 4 },
+            { "title": "Réseaux mobiles", "credits": 4 },
+            { "title": "Systèmes à microprocesseurs", "credits": 4 },
+            { "title": "Systèmes et réseaux optiques", "credits": 4 },
+            { "title": "Théorie de l'information et du codage", "credits": 4 },
+            { "title": "Traitement numérique du signal", "credits": 4 }
+          ]
+        },
+    {
+  "total_credits": 26,
+  "course_type": "Optionnelles Fermées",
+  "description": "Six UE à choisir dans une liste de cours spécialisés",
+  "courses": [
+    { "title": "Administration Windows", "credits": 4 },
+    { "title": "Architectures des technologies de l’information pour les entreprises", "credits": 4 },
+    { "title": "Bases de données avancées", "credits": 4 },
+    { "title": "Cloud et transformation digitale", "credits": 4 },
+    { "title": "Conception de circuits intégrés", "credits": 4 },
+    { "title": "Conception et intégration de systèmes mixtes", "credits": 4 },
+    { "title": "Cryptographie", "credits": 4 },
+    { "title": "Développement pour mobiles", "credits": 4 },
+    { "title": "Ecosystème et évolution de l'Internet", "credits": 4 },
+    { "title": "Gestion des données d’entreprise", "credits": 4 },
+    { "title": "Images de synthèse 3D", "credits": 4 },
+    { "title": "Information security - standards and best practices", "credits": 4 },
+    { "title": "Ingénierie des services de télécommunications", "credits": 4 },
+    { "title": "Ingénierie multimédia", "credits": 4 },
+    { "title": "Intégration et déploiement continu", "credits": 4 },
+    { "title": "Introduction à la science des données", "credits": 4 },
+    { "title": "Machine learning", "credits": 4 },
+    { "title": "Méthodes numériques", "credits": 4 },
+    { "title": "Mining massive datasets", "credits": 4 },
+    { "title": "Piratage éthique", "credits": 4 },
+    { "title": "Programmation fonctionnelle", "credits": 4 },
+    { "title": "Programmation pour le Web", "credits": 4 },
+    { "title": "Propagation libre et circuits hyperfréquences", "credits": 4 },
+    { "title": "Réseaux d'opérateurs", "credits": 4 },
+    { "title": "Réseaux locaux et interconnexion", "credits": 4 },
+    { "title": "Space and micro/nano satellite technologies", "credits": 4 },
+    { "title": "Systèmes embarqués", "credits": 4 },
+    { "title": "Technologies de l’internet des objets", "credits": 4 },
+    { "title": "Traitement d'images", "credits": 4 },
+    { "title": "Économie de l’entreprise", "credits": 2 },
+    { "title": "Virtualisation", "credits": 4 },
+    { "title": "Management opérationnel", "credits": 2 },
+    { "title": "Quality management", "credits": 2 },
+    { "title": "Strategic planning", "credits": 2 },
+    { "title": "Work ready now", "credits": 2 }
+
+  ]
+},
+    {
+      "total_credits": 4,
+      "course_type": "Optionnelles Ouvertes",
+      "description": "Choisies parmi les UE proposées par l'USJ, dont 2 crédits en langue ou culture arabe",
+      "courses": []
+    }
+  ]
+}
+
+  
+]

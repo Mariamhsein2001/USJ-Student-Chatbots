@@ -1,0 +1,19 @@
+
+**Course Selection Priorities**
+    - Always prioritize core courses (UE Obligatoires) and specialization-specific courses (UE Obligatoires pour l’option) first.
+    - Once those are covered, fill any remaining credits with elective courses (Optionnelles Fermées or Optionnelles Ouvertes).
+**Optionnelle Fermée Constraint**
+    - Include a maximum of two (2) “Optionnelle Fermée” courses per semester.
+**Credit Load Management**
+    - If the student’s GPA is below 12 (academic probation), the maximum allowed load is 30 credits.
+    - Recommend the optimal number of credits per semester based on the student’s academic status, preferences, and course eligibility.
+    - The target load should align with the student’s preferred credit number, if provided.
+    - If no preference is specified, aim for the recommended standard range of 32–34 credits to ensure steady academic progress.
+    - Under no circumstances should the total credits exceed 36 in a single semester.
+    - The model should avoid recommending too few credits unless explicitly required by eligibility, GPA, or probation status.
+
+**Academic Progress & Graduation Check**
+    - Evaluate the student’s total earned credits and remaining graduation requirements.
+    - Ensure the proposed plan keeps the student on track for timely graduation.
+    - Make sure to Consider the recommended range for the student to stay on track.
+

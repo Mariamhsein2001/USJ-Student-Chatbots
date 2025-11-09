@@ -1,0 +1,21 @@
+##GPA-Based Course Load:
+- GPA ≥ 16: Allow challenging or advanced courses, including electives or specialization courses. (30-36 credits)
+- 14 ≤ GPA < 16: Maintain a moderate workload, focusing on core courses with 1–2 electives. (30-36 credits)
+- 12 ≤ GPA < 14: Focus on core and easier courses only. Avoid advanced electives. (30-36 credits)
+- GPA < 12: Take only essential or repeated core courses. No new electives.(Under Probation: 30 credits max )
+## Prioritize courses as follows from high to low priority:
+    1. Required courses from previous semester
+    2. UE Obligatoires 
+    3. UE Obligatoires pour l'option
+    4. Optionnelle Fermée
+    5. Optionnels Ouvertes
+- Consider course weights for course selection.
+## Constraints:
+- Avoid courses similar to previously failed ones unless mandatory.
+- Do not exceed the GPA-appropriate credit limit.
+## Scholarship / Financial Aid:
+- If the student has a scholarship or financial aid, prioritize maintaining high grades.
+- Recommend safer course loads and courses with high success potential.
+## Student Interests:
+- Prefer courses aligned with the student’s interests or specialization.
+- Use interests to break ties between courses with the same priority level.

@@ -1,0 +1,1005 @@
+{
+  "Département Génie Électrique et Mécanique": [
+    {
+      "code": "020AEVES4",
+      "title": "Acoustique et vibrations",
+      "credits": 4,
+      "description": "This course covers fundamental concepts of noise and vibration, exploring passive and active damping strategies, damping materials, and control methods. Students will gain an understanding of these principles and their applications in mitigating noise and vibration.",
+      "prerequisites": "Vibrations (020VIBES2)."
+    },
+    {
+      "code": "020ADUES3",
+      "title": "Administration Unix",
+      "credits": 4,
+      "description": "This course explores the fundamentals of Unix system and network administration, covering topics such as bash scripting, file management, user account administration, network configuration, system security, and network security tools. Students will gain practical skills in managing and securing Unix-based systems and networks.",
+      "prerequisites": null
+    },
+    {
+      "code": "020ADWES4",
+      "title": "Administration Windows",
+      "credits": 4,
+      "description": "This course provides a foundational understanding of Microsoft Windows Server 2012 administration, covering installation, configuration, and core services like DHCP, DNS, and Active Directory. Students will learn to manage user accounts, file permissions, and basic security settings.",
+      "prerequisites": null
+    },
+    {
+      "code": "020ARDES3",
+      "title": "Aérodynamique",
+      "credits": 4,
+      "description": "This course focuses on theoretical and empirical methods for calculating aerodynamic loads on airfoils and wings. Students will learn to analyze performance, loads, stability, and control, including applications in both subsonic and supersonic flow.",
+      "prerequisites": "Mécanique des fluides 1 (020MF1ES1)."
+    },
+    {
+      "code": "020ADPES3",
+      "title": "Analyse de projets",
+      "credits": 4,
+      "description": "This course focuses on enterprise information systems (S.I.) and data modeling using the Merise methodology. Students will learn to analyze and model data and processes, creating conceptual and logical models (MCD, MCT, MLD, etc.) to design effective information systems.",
+      "prerequisites": null
+    },
+    {
+      "code": "020ANRES4",
+      "title": "Analyse des réseaux électriques",
+      "credits": 4,
+      "description": "This course covers the fundamentals of electrical power distribution networks, including historical context, power flow analysis, component modeling, and short-circuit fault analysis using symmetrical components. Students will learn to analyze network performance, apply numerical methods for solving large network problems, and utilize software tools like Matlab for simulations.",
+      "prerequisites": null
+    },
+    {
+      "code": "020ANMES5",
+      "title": "Analyse modale",
+      "credits": 4,
+      "description": "This course covers the vibrations of multi-degree-of-freedom (MDOF) systems, focusing on frequency response functions, damping, mobility measurements, curve fitting, modal parameter extraction, and model derivation. Students will learn to analyze and model the vibrational behavior of complex systems.",
+      "prerequisites": "Vibrations (020VIBES2)."
+    },
+    {
+      "code": "020ANGES4",
+      "title": "Anglais",
+      "credits": 4,
+      "description": "This course aims to equip engineering students with the English language skills necessary for successful integration into the professional world. The curriculum follows the English language guidelines outlined in the program.",
+      "prerequisites": null
+    },
+    {
+      "code": "020APDES4",
+      "title": "Applications distribuées",
+      "credits": 4,
+      "description": "This course explores software architecture patterns and enterprise application patterns, focusing on middleware for distributed object-oriented applications (Java RMI, gRPC, Reactive Java), web distribution, and containerization. Students will learn to implement, test, and deploy RESTful web services while understanding related technologies like EJB, ORM (Java Persistence API), SOAP, and Swagger.",
+      "prerequisites": null
+    },
+    {
+      "code": "020AROES3",
+      "title": "Architecture des ordinateurs",
+      "credits": 4,
+      "description": "This course covers the evolution of computers, focusing on performance evaluation, interconnection systems, and the instruction cycle. Students will learn about memory hierarchies, input/output systems, instruction set architectures, processor organization (including pipelining and superscalar design), and parallel architectures.",
+      "prerequisites": "Techniques digitales (020TEDNI4 ou 020TEDCI4)."
+    },
+    {
+      "code": "020ATIES5",
+      "title": "Architectures des technologies de l’information pour les entreprises",
+      "credits": 4,
+      "description": "This course provides a practical foundation in essential IT building blocks for organizations, covering topics like datacenter infrastructure, network security, application landscapes, and cloud implementations. Students will gain an overview of best practices, common pitfalls, and real-world use cases to understand how IT systems are designed, operated, and procured.",
+      "prerequisites": null
+    },
+    {
+      "code": "020AULES2",
+      "title": "Automatique linéaire",
+      "credits": 6,
+      "description": "This course introduces the fundamentals of linear control systems, covering the analysis of first and second-order systems, feedback control principles, and the design and implementation of common industrial controllers (P, PI, PID). Students will learn to analyze system stability and performance, design controllers using analytical and practical methods, and validate their designs through simulations and experimental work using Matlab/Simulink.",
+      "prerequisites": null
+    },
+    {
+      "code": "020AUTES3",
+      "title": "Automobile",
+      "credits": 4,
+      "description": "This course covers the fundamentals of automotive powertrain and chassis systems. Students will learn about clutches, transmissions (manual & automatic), differentials, suspensions, steering, and braking systems.",
+      "prerequisites": "Systèmes mécaniques (020SMEES1)."
+    },
+    {
+      "code": "020BDAES3",
+      "title": "Bases de données avancées",
+      "credits": 4,
+      "description": "This course covers the administration and management of distributed databases, including user and role management, security (permissions, backup, and restoration), and performance optimization techniques like replication and partitioning. Students will learn how to effectively administer and optimize distributed databases for performance and security.",
+      "prerequisites": "Bases de données relationnelles (020BDRES2)."
+    },
+    {
+      "code": "020BDRES2",
+      "title": "Bases de données relationnelles",
+      "credits": 4,
+      "description": "This course introduces relational database fundamentals, covering database design theory (relational model, SQL, normalization), data manipulation (PL/SQL, stored procedures), and transaction management (concurrency, locking). It also provides an introduction to non-relational databases.",
+      "prerequisites": null
+    },
+    {
+      "code": "020BEMES5",
+      "title": "Biomatériaux et équipements médicaux",
+      "credits": 4,
+      "description": "This course examines the structure-property relationships of biomaterials (metals, ceramics, polymers, and composites) and their biocompatibility within the human body. Students will learn about the application of these biomaterials and devices in various medical fields like orthopedics, cardiovascular, dermatology, and dentistry, with insights from medical experts.",
+      "prerequisites": "Introduction aux sciences des matériaux (020ISMNI2 ou 020ISMCI2)."
+    },
+    {
+      "code": "020BIMES3",
+      "title": "Biomécanique",
+      "credits": 4,
+      "description": "This course explores the biomechanical principles governing normal and abnormal human movement, focusing on kinetics and kinematics. Students will learn how biomechanical and physiological factors (bone, joint, connective tissue, muscle physiology and structure) interact to influence skeletal function and apply this knowledge to rehabilitation testing and practice.",
+      "prerequisites": "Introduction aux sciences des matériaux (020ISMNI2 ou 020ISMCI2) et Systèmes mécaniques"
+    },
+    {
+      "code": "020CM1ES3",
+      "title": "Calcul des machines 1",
+      "credits": 4,
+      "description": "This mechanical engineering course focuses on the design and selection of common machine elements like fasteners, bearings, and power transmission components (belts, chains, keys). Students will learn to size these elements for both static and fatigue loading, enabling them to choose off-the-shelf parts or design custom solutions.",
+      "prerequisites": "Résistance des matériaux 1 (020RM1ES2), Systèmes mécaniques (020SMEES1)."
+    },
+    {
+      "code": "020CM2ES4",
+      "title": "Calcul des machines 2",
+      "credits": 4,
+      "description": "This mechanical engineering course focuses on the design and analysis of key machine components for power transmission, including friction drives, shafts, and gears (spur, helical, and bevel). Students will learn to size these components considering static, dynamic, and vibrational loads, and apply this knowledge to gear train projects such as automotive transmissions and wind turbine gearboxes.",
+      "prerequisites": "Calcul des machines 1 (020CM1ES3), Vibrations (020VIBES2)."
+    },
+    {
+      "code": "020CEIES3",
+      "title": "Capteurs et instrumentation",
+      "credits": 4,
+      "description": "This course covers the fundamental principles of sensors, signal conditioning techniques, and the characteristics of various sensor types used to measure physical quantities. Students will learn to analyze, adapt, and utilize sensors for measuring parameters such as temperature, position, force, and speed, while understanding the principles of signal processing and measurement chain design.",
+      "prerequisites": "Électrotechnique (020ETCES1), Électronique numérique (020ELNES2) ou Électronique"
+    },
+    {
+      "code": "020CL1ES3",
+      "title": "Climatisation 1",
+      "credits": 4,
+      "description": "This course, \"Thermal Comfort,\" covers psychrometrics (air properties and behavior), building thermal performance (resistance and U-values), and ventilation systems (natural and mechanical). Students will learn to calculate heating loads and understand various heating systems including forced air, air handling units, and hydronic heating systems, including domestic hot water production.",
+      "prerequisites": "Mécanique des fluides 1 (020MF1ES1) et Thermodynamique E (020THENI3) ou Thermodynamique 2"
+    },
+    {
+      "code": "020CL2ES4",
+      "title": "Climatisation 2",
+      "credits": 4,
+      "description": "This course covers heat pump operation using Mollier diagrams, focusing on refrigerant challenges (ozone depletion and greenhouse effect) and alternative fluids. Students will learn to calculate summer heat balance, understand cooling coil performance, explore direct and indirect expansion cooling methods, and analyze low/high-velocity ductwork systems, including variable air volume.",
+      "prerequisites": "Climatisation 1 (020CL1ES3)."
+    },
+    {
+      "code": "020CLDES5",
+      "title": "Cloud et transformation digitale",
+      "credits": 4,
+      "description": "This course covers DevOps principles like CI/CD and containerization using technologies like Docker, AWS, Azure, and other cloud platforms. Students will explore real-world applications in areas such as smart homes, connected cars, and digital health, potentially leveraging tools like Watson.",
+      "prerequisites": null
+    },
+    {
+      "code": "020CTMES4",
+      "title": "Commande temporelle",
+      "credits": 4,
+      "description": "This course on temporal control systems focuses on two main areas: temporal analysis of systems using state-space representations, controllability, and observability, and state feedback control design, including pole placement, state observers, and quadratic control. Students will learn to analyze system behavior in the time domain and design controllers to achieve desired performance objectives.",
+      "prerequisites": "Systèmes et commandes numériques (020SCNES3)."
+    },
+    {
+      "code": "020CONES3",
+      "title": "Communications analogiques et numériques",
+      "credits": 6,
+      "description": "This course covers the fundamental techniques for transmitting information in both analog and digital communication systems. Students will learn about various modulation schemes (AM, FM, digital modulations), noise effects, synchronization, equalization, and advanced topics like MIMO and fading channels, enabling them to analyze and design communication systems.",
+      "prerequisites": "Théorie du signal (020THSES2)."
+    },
+    {
+      "code": "020CSFES3",
+      "title": "Communications sans-fil",
+      "credits": 4,
+      "description": "This course explores the core principles of wireless communication, focusing on radio channel modeling, digital modulation, channel coding, equalization, diversity, and multi-antenna (MIMO) techniques. Students will gain an understanding of various technologies like spread spectrum, multi-carrier transmission, multiple access, WiFi networks (including setup), and cellular network principles.",
+      "prerequisites": null
+    },
+    {
+      "code": "020CMPES5",
+      "title": "Comptabilité",
+      "credits": 4,
+      "description": "This course covers both general and cost accounting principles. Students will learn to manage balance sheet and income statement accounts, budgeting, depreciation, cost allocation, break-even analysis, variance analysis, and recent trends in cost accounting like ROI.",
+      "prerequisites": null
+    },
+    {
+      "code": "020CAOES2",
+      "title": "Conception assistée par ordinateur (CAO)",
+      "credits": 4,
+      "description": "This course focuses on applying numerical methods to solve various mechanical engineering problems involving linear and non-linear algebraic equations, differential equations (including boundary conditions, ordinary and partial types), using software like REVET, SolidWorks, and ANSYS. Students will learn to solve these problems through case studies and practical engineering applications.",
+      "prerequisites": null
+    },
+    {
+      "code": "020CCIES4",
+      "title": "Conception de circuits intégrés",
+      "credits": 4,
+      "description": "This course introduces the integrated circuit design flow, covering topics like multi-stage amplifiers, current mirrors, differential amplifiers, frequency response, feedback stability, and switched circuits. Students will learn to simulate analog circuits using EDA software and gain a basic understanding of noise and non-linearity in circuit design.",
+      "prerequisites": "Electronique numérique (020ELNES2)."
+    },
+    {
+      "code": "020CPMES3",
+      "title": "Conception de mécanismes",
+      "credits": 4,
+      "description": "This course covers the graphical and analytical design of linkage mechanisms, including cam-follower systems and gear trains, for motion, path, and function generation using precision points. Students will learn optimal synthesis techniques for these mechanical systems.",
+      "prerequisites": "Systèmes mécaniques (020SMEES1)."
+    },
+    {
+      "code": "020CSMES4",
+      "title": "Conception de systèmes mécatroniques",
+      "credits": 4,
+      "description": "This course covers mechatronic systems, including data analysis, microcontroller architecture and programming (Assembly), analog/digital conversion, sensor/actuator interfacing (using Arduino and Raspberry Pi), and programmable I/O. Students will apply these concepts in a team-based project to design and implement a mechatronic system.",
+      "prerequisites": "Capteurs et instrumentations (020CEIES3)."
+    },
+    {
+      "code": "020SSMES3",
+      "title": "Conception et intégration de systèmes mixtes",
+      "credits": 4,
+      "description": "This course provides hands-on training in PCB design and fabrication, covering materials, software tools, and practical techniques, alongside an introduction to mixed-signal system integration focusing on microcontrollers, peripherals, communication protocols, and relevant industry constraints. Students will gain skills in PCB creation and an understanding of developing embedded systems with microcontrollers.",
+      "prerequisites": "Electronique numérique (020ELNES2)."
+    },
+    {
+      "code": "020CCCES3",
+      "title": "Conversion continu-continu",
+      "credits": 4,
+      "description": "This course covers DC-DC power conversion, including converter topologies, power semiconductor devices, DC drives, and switched-mode power supplies (both isolated and non-isolated). Students will learn modeling techniques, small-signal analysis, and control system design for these power electronic systems.",
+      "prerequisites": "Electronique industrielle (020ELIES2)."
+    },
+    {
+      "code": "020CCAES4",
+      "title": "Conversion continu-alternatif",
+      "credits": 4,
+      "description": "This course covers the principles, topologies, control techniques, and applications of power inverters and high power factor AC-DC converters. Students will learn to analyze, design, and simulate these converters, including modulation strategies, filtering techniques, and addressing operational imperfections.",
+      "prerequisites": "Conversion continu-continu ( 020CCCES3 )."
+    },
+    {
+      "code": "020CRYES4",
+      "title": "Cryptographie",
+      "credits": 4,
+      "description": "This course introduces students to security attacks, mechanisms, and protocols used to protect data services like authentication, integrity, and confidentiality. Students will learn about algorithms, cryptographic techniques, security standards (PKCS, PKI, SSL), and real-world applications such as e-banking and e-commerce.",
+      "prerequisites": null
+    },
+    {
+      "code": "020DMOES4",
+      "title": "Développement pour mobiles",
+      "credits": 4,
+      "description": "This course provides an introduction to cross-platform mobile app development using React Native and Expo, connecting to backends like Firebase. Students will also learn the fundamentals of native iOS development with Swift and native Android development with Kotlin.",
+      "prerequisites": null
+    },
+    {
+      "code": "020DOMES3",
+      "title": "Domotique",
+      "credits": 4,
+      "description": "This course explores domotics, the integration of electronics, building physics, automation, IT, and telecommunications to centrally control various building systems like heating, security, and lighting. Students will learn how to apply domotics to enhance comfort, security, and communication in homes, businesses, and public spaces.",
+      "prerequisites": "Electronique numérique (020ELNES2) ou Electronique (020ELCES1)."
+    },
+    {
+      "code": "020DROES5",
+      "title": "Droit",
+      "credits": 2,
+      "description": "This course introduces fundamental legal concepts and principles, including subjective rights, legal proceedings (civil and commercial), and core areas of commercial law. Students will gain an understanding of business structures, the legal environment of enterprises, payment/credit instruments, and the various guarantees involved in business operations.",
+      "prerequisites": null
+    },
+    {
+      "code": "020EEIES4",
+      "title": "Ecosystème et évolution de l'Internet",
+      "credits": 4,
+      "description": "This course, \"Internet Governance,\" explores the technical and economic aspects of internet routing and interconnection. Students will learn about routing protocols like BGP, internet exchange points, peering agreements, routing security, and pricing models within the internet ecosystem.",
+      "prerequisites": "Introduction aux réseaux de données (020INRES1)."
+    },
+    {
+      "code": "020ELCES1",
+      "title": "Electronique",
+      "credits": 6,
+      "description": "This course provides mechanical engineering students with a foundational understanding of electronics and circuits. It covers essential electronic components like diodes, transistors, and op-amps, along with basic analog and digital circuits, systems, and instrumentation.",
+      "prerequisites": "Systèmes et réseaux électriques linéaires (020SRLNI4 ou 020SRLCI4)."
+    },
+    {
+      "code": "020ELAES1",
+      "title": "Electronique analogique",
+      "credits": 6,
+      "description": "This course explores fundamental low-power electronic components and their applications in circuit design. Students will learn about semiconductors, diodes, bipolar junction transistors (BJTs), field-effect transistors (FETs), operational amplifiers (Op Amps), and comparators, focusing on their characteristics, operation, and use in circuits for rectification, amplification, filtering, and other applications.",
+      "prerequisites": "Systèmes et réseaux électriques linéaires (020SRLNI4 ou 020SRLCI4)."
+    },
+    {
+      "code": "020ELIES2",
+      "title": "Electronique industrielle",
+      "credits": 6,
+      "description": "This Industrial Electronics course covers power semiconductor devices (diodes, thyristors, transistors, etc.) and their application in AC-DC, DC-AC, DC-DC, and AC-AC power converters. Students will learn about converter topologies, energy aspects, component selection, and protection schemes through theoretical study and a practical design project.",
+      "prerequisites": "Electronique analogique (020ELAES1)."
+    },
+    {
+      "code": "020ELNES2",
+      "title": "Electronique numérique",
+      "credits": 6,
+      "description": "This course provides an introduction to integrated circuit technology, covering digital CMOS circuit design from the transistor level to logic gates, as well as analog-to-digital and digital-to-analog converters, and an overview of memory circuit architectures. Students will gain a foundational understanding of IC design principles and the building blocks of digital and analog systems.",
+      "prerequisites": "Electronique analogique (020ELAES1)."
+    },
+    {
+      "code": "020ETCES1",
+      "title": "Electrotechnique",
+      "credits": 6,
+      "description": "This course, \"Principles of Energy Conversion,\" covers the fundamentals of energy conversion systems, focusing on electrotechnical materials, magnetic circuits, and single-phase and three-phase transformers. Students will learn to model, analyze, and understand the operation of transformers under various conditions, including normal and abnormal scenarios, using equivalent circuits and experimental data.",
+      "prerequisites": "Electromagnétisme (020EMENI3 ou 020EMECI3), Systèmes et réseaux électriques linéaires(020SRLNI4 ou 020SRLCI4)."
+    },
+    {
+      "code": "020ELFES4",
+      "title": "Eléments finis pour les applications mécaniques",
+      "credits": 4,
+      "description": "This course introduces the Finite Element Method (FEM), a widely used numerical simulation technique in engineering and science. Students will learn the theoretical basis and practical implementation of FEM for problems in mechanics and heat transfer, enabling them to effectively use, validate, and interpret results from FEM software in various engineering applications.",
+      "prerequisites": "Méthodes numériques (020MENES1), Résistance des matériaux 1 (020RM1ES2)."
+    },
+    {
+      "code": "020ERNES5",
+      "title": "Energies renouvelables",
+      "credits": 6,
+      "description": "This course explores primary and renewable energy sources, focusing on technologies like hydro, wind, solar, biomass, and geothermal power. Students will learn the fundamental principles, design considerations, cost analysis, and performance evaluation of energy conversion and storage systems for electricity and/or heat production.",
+      "prerequisites": null
+    },
+    {
+      "code": "020EVVES4",
+      "title": "Entraînements à vitesse variable",
+      "credits": 4,
+      "description": "This course covers the principles and control techniques for variable speed drives using DC, induction, and synchronous machines. Students will learn about modeling, power supply configurations, and control strategies (scalar, vector, DTC) for these machines, with a focus on applications using Matlab/Simulink.",
+      "prerequisites": "Automatique linéaire (020ELAES1), Machines électriques 2 (020ME2ES3)."
+    },
+    {
+      "code": "020ENTES1",
+      "title": "Entrepreneurship",
+      "credits": 2,
+      "description": "This course explores modern approaches to entrepreneurship education, moving beyond traditional business plan development to focus on practical, real-world application and entrepreneurial action. Students will learn innovative methods applicable to business and management.",
+      "prerequisites": null
+    },
+    {
+      "code": "020ETHES3",
+      "title": "Ethique et entreprise",
+      "credits": 4,
+      "description": "This interactive Ethics and Business course combines theoretical readings with practical application through discussions, role-playing, and projects focusing on ethical considerations in business, regional context, and international organizational standards. Students will develop analytical and pragmatic skills to address ethical challenges in real-world business scenarios.",
+      "prerequisites": null
+    },
+    {
+      "code": "020FDMES3",
+      "title": "Fatigue des matériaux",
+      "credits": 4,
+      "description": "This course examines the behavior of materials under static (creep) and dynamic (fatigue) mechanical loads, including high and low cycle fatigue. Students will learn about endurance testing, factors affecting endurance limits, Wöhler and Manson-Coffin curves, notch effects, crack initiation and growth, damage estimation, and the phenomena of creep and damping.",
+      "prerequisites": "Résistance des matériaux 1 (020RM1ES2), Vibrations (020VIBES2)."
+    },
+    {
+      "code": "020GPRES2",
+      "title": "Gestion de projets",
+      "credits": 4,
+      "description": "This course covers the fundamentals of project management, including project attributes, the project lifecycle, knowledge areas (scope, time, cost, resources, risk, quality), and process groups (initiating, planning, executing, monitoring & controlling, closing). Students will learn essential skills and methodologies for effective project management, including an introduction to PMI, PMBOK, and PMP/CAPM certification.",
+      "prerequisites": null
+    },
+    {
+      "code": "020GLOES5",
+      "title": "Génie logiciel",
+      "credits": 4,
+      "description": "This course examines software development project management, focusing on delivering projects that meet cost, quality, functionality, and timeline goals (CQFD). It covers both traditional (CMM, TSP, PSP, RUP) and agile (XP, Scrum) methodologies, requirement elicitation, design principles (DRY, KISS, SOLID), UML, refactoring techniques, testing strategies (including TDD and JUnit), cost estimation, UI/UX evaluation, and introduces DevOps and SaaS development principles.",
+      "prerequisites": null
+    },
+    {
+      "code": "020GDEES4",
+      "title": "Gestion des données d’entreprise",
+      "credits": 4,
+      "description": "This course explores Enterprise Data Management (EDM) focusing on integrating diverse enterprise data models and formats using techniques like data warehousing and virtualized views. Students will learn to address Big Data integration challenges, work with NoSQL databases and various Big Data formats, and design data architectures and pipelines using tools like Talend and Azure Data Factory.",
+      "prerequisites": null
+    },
+    {
+      "code": "020HYDES3",
+      "title": "Hydraulique",
+      "credits": 4,
+      "description": "This course covers the analysis of fluid networks in both steady-state and transient conditions, with a focus on the principles and applications of pumps and turbines. Students will learn to model and analyze the behavior of these systems under different operating conditions.",
+      "prerequisites": "Mécanique des fluides 1 (020MF1ES1)."
+    },
+    {
+      "code": "020IPRES5",
+      "title": "Identification des processus",
+      "credits": 4,
+      "description": "This course focuses on techniques for identifying unknown systems to enable automated control. Students will learn system modeling, noise approximation, non-parametric and parametric model identification methods (including least squares), and practical considerations for implementing these techniques.",
+      "prerequisites": "Signaux et systèmes (020SYSES2)."
+    },
+    {
+      "code": "020I3DES3",
+      "title": "Images de synthèse 3D",
+      "credits": 4,
+      "description": "This course covers the fundamental techniques of 3D computer graphics, focusing on the underlying mathematics and practical implementation using C/C++ and OpenGL. Students will learn to generate synthetic images and gain an overview of advanced rendering techniques like shading, shadows, reflections, ray tracing, and stereoscopy.",
+      "prerequisites": "Programmation orientée objets (020CPPES1)."
+    },
+    {
+      "code": "020ISSES5",
+      "title": "Information security - standards and best practices",
+      "credits": 4,
+      "description": "This course introduces fundamental security and risk analysis concepts before delving into key IT security standards like ISO 27001-2, PCI DSS, OWASP, and SANS-CIS Top 20. Students will learn to apply security best practices in areas such as policy creation, human resources security, physical and logical security, incident management, and business continuity planning.",
+      "prerequisites": null
+    },
+    {
+      "code": "020IDRES5",
+      "title": "Ingénierie des réseaux",
+      "credits": 4,
+      "description": "This course covers the core principles of telecommunication network engineering, including the design, planning, and optimization of 2G, 3G, 4G, and optical networks, with a focus on radio dimensioning and network virtualization. Students will learn to use professional planning tools and analyze network survivability and quality of service.",
+      "prerequisites": null
+    },
+    {
+      "code": "020INMES5",
+      "title": "Ingénierie multimédia",
+      "credits": 4,
+      "description": "This course covers the fundamentals of video signals, from analog television systems (PAL, NTSC) and camera/display technologies (CCD, LCD, OLED) to digital video formats (MPEG2, H.264) and broadcasting standards (DVB, HDTV), enabling students to understand the technical aspects of video production and transmission.",
+      "prerequisites": "Théorie du signal (020THSES2)."
+    },
+    {
+      "code": "020INDES2",
+      "title": "Innovation and design thinking",
+      "credits": 2,
+      "description": "This course, Innovation and Design Thinking, equips students with foundational skills in innovation and creative problem-solving applicable across disciplines. Students will learn to apply user-centered design thinking to develop innovative solutions for social problems, new products, and improved processes, ultimately fostering sustainable growth and societal well-being.",
+      "prerequisites": null
+    },
+    {
+      "code": "020IE1ES2",
+      "title": "Installations électriques 1",
+      "credits": 6,
+      "description": "This course covers the regulations, standards, and practical calculations involved in electrical installations, including power balance, equipment selection, and protection devices. Students will also learn about lighting systems, low-current installations (fire detection, data transmission, surveillance), and gain hands-on experience with industry software for design and analysis.",
+      "prerequisites": "Electrotechnique (020ETCES1)."
+    },
+    {
+      "code": "020IE2ES3",
+      "title": "Installations électriques 2",
+      "credits": 4,
+      "description": "This course covers electrical regulations, power systems (including power calculations, equipment selection, and power factor correction), and low-voltage electrical equipment and protection. Students will also learn about lighting systems (including various light sources and calculations using Dialux) and low-current installations like fire detection, data transmission, surveillance, and access control.",
+      "prerequisites": "Installations électriques 1 (020IE1ES2)."
+    },
+    {
+      "code": "020IAEES5",
+      "title": "Intégration des applications d'entreprises",
+      "credits": 4,
+      "description": "This course explores the challenges and methodologies of enterprise application integration, covering data, interface, and process integration patterns. Students will learn about centralized hub-spoke architectures, microservices with Domain Driven Design, cloud deployment, resilience strategies, and event-driven architectures for data-intensive applications.",
+      "prerequisites": null
+    },
+    {
+      "code": "020IDCES4",
+      "title": "Intégration et déploiement continu",
+      "credits": 4,
+      "description": "This course provides hands-on experience in building and automating software development and infrastructure deployment using DevOps principles and tools. Students will learn to implement CI/CD pipelines with Jenkins and Kubernetes, automate server management with Ansible, leverage Azure DevOps for various deployment scenarios, and use Terraform to provision and manage infrastructure on both Azure and AWS.",
+      "prerequisites": null
+    },
+    {
+      "code": "020IA2ES4",
+      "title": "Intelligence artificielle",
+      "credits": 4,
+      "description": "This course explores the core principles of Artificial Intelligence, covering intelligent agents, problem-solving, search algorithms, game playing, knowledge representation, planning, learning, natural language processing, vision, and robotics. Students will gain an understanding of inference mechanisms, Bayesian networks, Markov processes, reinforcement learning, and supervised/unsupervised machine learning techniques like decision trees, neural networks, and support vector machines.",
+      "prerequisites": "Théorie des graphes et recherche opérationnelle (020TROES2)."
+    },
+    {
+      "code": "020IMEES1",
+      "title": "Introduction aux machines électriques",
+      "credits": 4,
+      "description": "This course covers the principles of energy conversion, focusing on magnetic materials and circuits, balanced and unbalanced three-phase systems, and the steady-state modeling and characteristics of DC, asynchronous (induction), and synchronous machines. Students will learn to analyze and understand the operation of these electrical machines.",
+      "prerequisites": "Electromagnétisme (020EMENI3 ou 020EMECI3)."
+    },
+    {
+      "code": "020INRES1",
+      "title": "Introduction aux réseaux de données",
+      "credits": 6,
+      "description": "This course provides a foundation in data networking and Internet principles, focusing on the TCP/IP protocol suite and network architectures. Students will learn about network protocols, IP addressing, routing, transport protocols (TCP/UDP), common network services, security basics, and gain practical experience through network implementation, simulation, protocol analysis, and socket programming. The course also integrates the first semester of the Cisco CCNA Routing & Switching curriculum.",
+      "prerequisites": null
+    },
+    {
+      "code": "020ISDES3",
+      "title": "Introduction à la science des données",
+      "credits": 4,
+      "description": "This introductory data science course explores the problems, challenges, and tools used in data science projects. Students will learn data collection, exploration, visualization techniques, and gain practical experience using data science tools through real-world examples.",
+      "prerequisites": null
+    },
+    {
+      "code": "020LFLES5",
+      "title": "Logique floue - Réseaux neuronaux",
+      "credits": 4,
+      "description": "This course, \"Introduction to Artificial Intelligence,\" explores fuzzy logic and artificial neural networks with a focus on their application to complex process control. Students will learn the theoretical foundations and practical implementation of these AI techniques, including simulations using Matlab toolboxes.",
+      "prerequisites": null
+    },
+    {
+      "code": "020MLRES4",
+      "title": "Machine learning",
+      "credits": 4,
+      "description": "This course introduces machine learning, a branch of AI focused on enabling computers to learn from data. Students will learn to implement various machine learning algorithms, including decision trees, random forests, SVMs, and neural networks, using Python with TensorFlow and Keras.",
+      "prerequisites": null
+    },
+    {
+      "code": "020ME1ES2",
+      "title": "Machines Electriques 1",
+      "credits": 6,
+      "description": "This course covers the modeling, equations, and performance characteristics of DC, asynchronous (induction), and synchronous machines in steady-state. Students will learn to analyze these machines, determine equivalent circuit parameters through experimental testing, and gain an introduction to variable speed drives.",
+      "prerequisites": "Electrotechnique (020ETCES1)."
+    },
+    {
+      "code": "020ME2ES3",
+      "title": "Machines électriques 2",
+      "credits": 4,
+      "description": "This Electrical Machines 2 course covers advanced topics in transformers, DC machines, asynchronous machines, and synchronous machines, focusing on their operation under special conditions, transient states, and dynamic modeling. Students will learn to analyze and model these machines for various applications, including generator and braking modes, using tools like Matlab.",
+      "prerequisites": "Machines Electriques 1 (020ME1ES2 )"
+    },
+    {
+      "code": "020MNGES4",
+      "title": "Management",
+      "credits": 4,
+      "description": "This course provides an overview of core business functions within organizations, covering topics from organizational structure and strategic planning (including SWOT and STEP analysis) to functional areas like HR, finance, operations, and marketing. Students will learn to formulate a comprehensive business plan.",
+      "prerequisites": null
+    },
+    {
+      "code": "020MF1ES1",
+      "title": "Mécanique des fluides 1",
+      "credits": 4,
+      "description": "This course covers the fundamental principles of fluid mechanics, including fluid properties, statics, kinematics, and viscosity. Students will learn to analyze fluid behavior using equilibrium equations, dimensional analysis, and the Navier-Stokes equations (1D), while also gaining an introduction to laminar and turbulent flow regimes and the theorems of Euler and Bernoulli.",
+      "prerequisites": "Mécanique 2 (020MC2NI3 ou 020MC2CI3)."
+    },
+    {
+      "code": "020MF2ES3",
+      "title": "Mécanique des fluides 2",
+      "credits": 4,
+      "description": "This course covers the kinematics and dynamics of 3D fluid flows, including potential flow, compressible/incompressible flows, shock waves, and boundary layers. Students will learn to apply fundamental equations like Navier-Stokes and the continuity equation, as well as analyze lift and drag forces, and utilize computational fluid dynamics (CFD) software to model and analyze fluid flow phenomena.",
+      "prerequisites": "Mécanique des fluides 1 (020MF1ES1)."
+    },
+    {
+      "code": "020MMCES4",
+      "title": "Mécanique des matériaux composites",
+      "credits": 4,
+      "description": "This course explores composite materials within the framework of material science, focusing on their theoretical mechanical behavior. Students will learn about anisotropic elasticity, lamination theory, constituent materials, manufacturing processes, and practical applications of composites.",
+      "prerequisites": "Fatigue des matériaux (020FDMES3) et Introduction aux sciences des matériaux (020ISMNI2 ou"
+    },
+    {
+      "code": "020MMIES5",
+      "title": "Mécatronique et machines intelligentes",
+      "credits": 4,
+      "description": "This course explores the design and development of intelligent mechatronic systems, with a focus on autonomous mobile robots. Students will learn about sensor modeling and fusion, system modeling, automated simulation, perception, planning, control, and key robotic concepts like state estimation, localization, and simultaneous localization and mapping (SLAM).",
+      "prerequisites": "Automatique linéaire (020AULES2)."
+    },
+    {
+      "code": "020MENES1",
+      "title": "Méthodes numériques",
+      "credits": 4,
+      "description": "This course introduces numerical techniques for solving engineering problems that are mathematically intractable, covering topics like error analysis, interpolation, numerical differentiation/integration, and the numerical solution of differential equations, linear systems, and eigenvalue problems. Students will learn to develop simulators and numerically solve problems such as function approximation, numerical calculus, and solving various types of equations.",
+      "prerequisites": "Calculs différentiels (020CDFNI4 ) ou Analyse 2 (020AN2CI3), Algèbre linéaire (020ALNNI2) ou"
+    },
+    {
+      "code": "020MMDES4",
+      "title": "Mining Massive Datasets",
+      "credits": 4,
+      "description": "This course introduces the concepts and techniques behind big data analysis. Students will learn about distributed computing, algorithms for finding similar items and communities, data stream processing, recommender systems, and identifying separable sets within large datasets.",
+      "prerequisites": null
+    },
+    {
+      "code": "020MCOES3",
+      "title": "Modèles de conception",
+      "credits": 4,
+      "description": "This course explores the 23 design patterns (creational, structural, and behavioral) from the \"Gang of Four\" book in the context of object-oriented design. Students will learn to implement these patterns using Java and UML for both new (greenfield) and existing (brownfield) projects, as well as utilize application documentation and monitoring tools.",
+      "prerequisites": null
+    },
+    {
+      "code": "020MSDES1",
+      "title": "Modélisation des systèmes dynamiques",
+      "credits": 4,
+      "description": "This course covers the mathematical modeling of electrical and mechanical systems, simulation using Matlab/Simulink, and analysis of dynamic performance through simulation. Students will learn numerical solution methods and how to choose appropriate simulation parameters.",
+      "prerequisites": "MATLAB (020MATNI4)."
+    },
+    {
+      "code": "020MOTES4",
+      "title": "Moteurs thermiques",
+      "credits": 4,
+      "description": "This course explores the design and operation of internal combustion engines, focusing on fluid and thermal processes. Students will analyze engine cycles, combustion, heat transfer, and emissions, while also considering the social impact of engine technology.",
+      "prerequisites": "Chimie 2 (020CH2NI2 ou 020CH2CI2), Thermodynamique : Principes et changements de phase"
+    },
+    {
+      "code": "020OEPES5",
+      "title": "Optimisation énergétique des procédés",
+      "credits": 4,
+      "description": "This course focuses on identifying and recovering waste heat in industrial processes using methods like pinch analysis. Students will learn to design optimal heat exchanger networks, integrate energy production systems, and determine the most economically efficient operating point for these systems.",
+      "prerequisites": "Transfert de chaleur (020TRCES2)."
+    },
+    {
+      "code": "020OFPES4",
+      "title": "Organes fluidiques de puissance",
+      "credits": 4,
+      "description": "This course covers hydraulic power transmission systems, focusing on components, circuit design, control methods (including on/off, proportional, and hydrostatic), energy efficiency, and troubleshooting. Students will learn to design hydraulic circuits, select components, and understand the emerging trend of replacing hydraulics with electric drives.",
+      "prerequisites": "Hydraulique (020HYDES3), Dessin industriel (020DISNI4 ou 020DISCI4)."
+    },
+    {
+      "code": "020PSRES4",
+      "title": "Performances des systèmes informatiques et des réseaux",
+      "credits": 4,
+      "description": "This course applies mathematical tools like stochastic processes and optimization to model, analyze, and optimize the performance of computer systems and networks. Students will learn to use these tools, including queuing theory and Markov processes, to solve real-world problems and utilize numerical methods for solutions.",
+      "prerequisites": "Probabilités (020PRBNI4) ou Analyse 3 (020AN3CI4)"
+    },
+    {
+      "code": "020PIRES5",
+      "title": "Piratage éthique",
+      "credits": 4,
+      "description": "This course, Piratage (Hacking), covers the fundamentals of ethical hacking and penetration testing. Students will learn about various attack methods, including reconnaissance, vulnerability scanning, password cracking, system and network attacks, web application exploits, and social engineering techniques.",
+      "prerequisites": null
+    },
+    {
+      "code": "020PLBES4",
+      "title": "Plomberie",
+      "credits": 4,
+      "description": "This course provides an introduction to French and American plumbing standards and calculations, covering topics such as piping, valves, water supply and distribution (both hot and cold), wastewater and rainwater drainage, and ventilation systems. Students will also gain an introduction to NFPA standards for fire sprinkler systems, standpipes, and fire pumps, as well as solar energy estimation for water heating.",
+      "prerequisites": "Hydraulique (020HYDES3)."
+    },
+    {
+      "code": "020PCOES4",
+      "title": "Principes des compilateurs",
+      "credits": 4,
+      "description": "This compiler design course covers the fundamental principles of building compilers, including lexical analysis (using regular languages and finite automata), syntax analysis (using context-free grammars and pushdown automata with techniques like LR parsing), semantic analysis (syntax-directed translation), and intermediate code generation with basic optimizations. Students will learn to use tools like LEX and YACC to build compiler components.",
+      "prerequisites": null
+    },
+    {
+      "code": "020PF1ES3",
+      "title": "Procédés de fabrication mécanique 1",
+      "credits": 4,
+      "description": "This course introduces students to industrial mechanical part production, covering traditional and non-traditional material removal processes (machining, EDM, etc.), assembly methods (welding, brazing), and Computer-Aided Manufacturing (CAM) using CAD designs. Students will learn about process capabilities, limitations, costs, selection guidelines, and apply this knowledge through hands-on workshop experience in machining and welding, including CNC programming and operation.",
+      "prerequisites": "Dessin industriel (020DISNI4 ou 020DISCI4)."
+    },
+    {
+      "code": "020PF2ES4",
+      "title": "Procédés de fabrication mécanique 2",
+      "credits": 4,
+      "description": "This course explores the thermal, deformation, phase change, and solidification processing of metals, alongside the manufacturing of non-metallic engineering materials like ceramics, polymers, and composites. Students will learn to evaluate process capabilities, limitations, costs, and material behavior during manufacturing, enabling them to select appropriate fabrication methods.",
+      "prerequisites": "Procédés de fabrication mécanique 1 (020PF1ES3)."
+    },
+    {
+      "code": "020PRNES4",
+      "title": "Procédés industriels",
+      "credits": 4,
+      "description": "This course covers the core components and communication methods used in industrial automation systems, including PLCs, DCS, and SCADA. Students will learn about hardware components, network topologies, programming concepts, and industry-standard protocols like MODBUS to design and troubleshoot these systems.",
+      "prerequisites": null
+    },
+    {
+      "code": "020PENES4",
+      "title": "Production de l'énergie électrique",
+      "credits": 4,
+      "description": "This course explores global energy resources, conversion methods, and power generation using turbomachinery, covering economic and environmental considerations. Students will learn about electricity sector fundamentals, energy conversion principles, various power generation cycles (steam, gas, combined), and internal combustion engines.",
+      "prerequisites": "Mécanique des fluides 1 (020MF1ES1)."
+    },
+    {
+      "code": "020PCPES2",
+      "title": "Programmation C++",
+      "credits": 4,
+      "description": "This C++ programming course covers fundamental programming concepts like data structures, control flow, and functions, then delves into object-oriented programming principles, including classes, inheritance, polymorphism, and templates. Students will learn to build applications using the STL, manage exceptions, work with files, and create graphical interfaces using Qt.",
+      "prerequisites": null
+    },
+    {
+      "code": "020PFSES3",
+      "title": "Programmation fonctionnelle",
+      "credits": 4,
+      "description": "This course introduces functional programming concepts using Java as the primary language, with supplementary examples in Python and Scala. Students will learn recursion, immutable objects, pattern matching, functional collections, lazy evaluation, and monads, alongside development tools like IntelliJ IDEA, Maven, Git, and GitHub Actions for CI/CD.",
+      "prerequisites": "Programmation orientée objets (020CPPES1)."
+    },
+    {
+      "code": "020CPPES1",
+      "title": "Programmation orientée objets",
+      "credits": 6,
+      "description": "This C++ course covers syntax, manual memory management, object-oriented programming (including inheritance and polymorphism), operator overloading, templates, exception handling, and move semantics. Students will also learn to use development tools like Visual Studio Code, CMake, Git, GitHub Actions, Doxygen, and Qt to build, version, document, and test C++ applications.",
+      "prerequisites": null
+    },
+    {
+      "code": "020PPLES5",
+      "title": "Programmation parallèle",
+      "credits": 4,
+      "description": "This course focuses on system calls and inter-process communication (IPC) techniques within an operating system. Students will learn about process management, signals, file handling, communication via pipes and System V IPC mechanisms, and network communication using sockets.",
+      "prerequisites": "Programmation orientée objets (020CPPES1), Systèmes d'exploitation (020SSEES4)."
+    },
+    {
+      "code": "020PWBES3",
+      "title": "Programmation pour le WEB",
+      "credits": 4,
+      "description": "This course is a hands-on introduction to full-stack web development using the MERN stack (MongoDB, Express, React, Node.js). Students will learn to build dynamic web applications by developing both the front-end with React and the back-end with Node.js, Express, and MongoDB, culminating in deployment as a SaaS, and exploring alternative approaches like MEAN stack and BaaS.",
+      "prerequisites": null
+    },
+    {
+      "code": "020PFEES6",
+      "title": "Projet de fin d'études",
+      "credits": 16,
+      "description": "This capstone project provides engineering students with hands-on design experience by working in groups to define, design, build, test, and evaluate a project under faculty supervision. Students will apply learned knowledge, develop a final product, and communicate their findings through a comprehensive report and oral presentations.",
+      "prerequisites": "Avoir validé 150 crédits."
+    },
+    {
+      "code": "020PRMES4",
+      "title": "Projet multidisciplinaire",
+      "credits": 6,
+      "description": "This project-based course offers students from diverse academic backgrounds a practical, collaborative experience where they apply their specialized knowledge to complete a task, fostering critical thinking, communication, and teamwork skills. Students will design, model, analyze, test, and evaluate a project culminating in a final report and oral presentation.",
+      "prerequisites": null
+    },
+    {
+      "code": "020PGAES3",
+      "title": "Propagation guidée et antennes",
+      "credits": 4,
+      "description": "This course covers the analysis of transmission lines in steady-state and transient regimes, including the use of the Smith chart for impedance matching. It also explores waveguides and antenna fundamentals, including antenna arrays and smart antennas.",
+      "prerequisites": "Electromagnétisme (020EMENI3 ou 020EMECI3)."
+    },
+    {
+      "code": "020PCHES3",
+      "title": "Propagation libre et circuits hyperfréquences",
+      "credits": 4,
+      "description": "This course covers radio wave propagation in free space and under various environmental influences (ground, troposphere, atmospheric phenomena) including diffraction and scattering. Students will learn to design analog and digital radio links, analyze microwave circuits and components (junctions, filters, transistors, diodes, and sources).",
+      "prerequisites": "Electromagnétisme (020EMENI3 ou 020EMECI3)."
+    },
+    {
+      "code": "020QOSES5",
+      "title": "Qualité de service dans les réseaux",
+      "credits": 4,
+      "description": "This course covers network traffic control and engineering techniques to improve Quality of Service (QoS). Students will learn about congestion control, traffic regulation, QoS architectures like DiffServ, multimedia transmission, network performance metrics, and Internet regulation, including network neutrality and active/passive network measurement.",
+      "prerequisites": "Introduction aux réseaux de données (020INRES1)."
+    },
+    {
+      "code": "020RPEES5",
+      "title": "Rentabilité des projets énergétiques",
+      "credits": 4,
+      "description": "This course uses economic tools to evaluate the financial viability of energy projects, covering topics like energy efficiency measures, green vs. grey energy, investment analysis, and financial incentives. Students will learn to calculate key metrics like payback periods, net present value, and internal rate of return to determine project profitability, including the impact of externalities and various cost considerations.",
+      "prerequisites": null
+    },
+    {
+      "code": "020RESES5",
+      "title": "Réseaux d'entreprise sécurisés",
+      "credits": 4,
+      "description": "This course explores various firewall technologies, intrusion detection systems, and network security architectures used to protect enterprise networks. Students will learn to implement firewalls, configure VPNs and proxies, and analyze network security through hands-on labs and case studies.",
+      "prerequisites": "Routage et commutation (020RCOES2)."
+    },
+    {
+      "code": "020ROPES5",
+      "title": "Réseaux d'opérateurs",
+      "credits": 4,
+      "description": "This course provides an overview of telecommunications network architecture, focusing on the Lebanese operator network. It covers xDSL access networks, telephone access structure, evolution towards MPLS, VPN services, and the implementation of both ADSL and MPLS hardware platforms.",
+      "prerequisites": "Introduction aux réseaux de données (020INRES1)."
+    },
+    {
+      "code": "020RLIES4",
+      "title": "Réseaux locaux et interconnexion",
+      "credits": 4,
+      "description": "This course covers the third and fourth semesters of the Cisco CCNA Routing & Switching curriculum, focusing on advanced router and switch configuration within complex networks. Students will learn about WAN technologies and network services needed for converged applications, enabling them to select appropriate network devices and WAN technologies based on network requirements.",
+      "prerequisites": "Routage et commutation (020RCOES2)."
+    },
+    {
+      "code": "020REMES4",
+      "title": "Réseaux mobiles",
+      "credits": 4,
+      "description": "This course explores the evolution of mobile networks from 2G to 5G, covering their architecture, functionalities (including radio interface, resource and mobility management, and security), and the progression from GSM to GPRS/EDGE, UMTS to HSPA, and LTE to LTE-Advanced. Students will gain an understanding of the design, operation, and recent advancements in mobile network technology, including 5G network virtualization.",
+      "prerequisites": "Communications sans-fil (020CSFES3)."
+    },
+    {
+      "code": "020RM1ES2",
+      "title": "Résistance des matériaux 1",
+      "credits": 4,
+      "description": "This course explores the behavior of deformable solids under external forces, covering fundamental principles of beam theory and elasticity. Students will learn to analyze stress, strain, deformation, and failure mechanisms (including buckling, fatigue, and torsion) in structures, with an introduction to statically indeterminate systems.",
+      "prerequisites": "Statique pour le génie mécanique (020STMNI4 ou 020STMCI4)."
+    },
+    {
+      "code": "020RM2ES3",
+      "title": "Résistance des matériaux 2",
+      "credits": 4,
+      "description": "This course covers the analysis of statically indeterminate beams (hyperstatic beams) using methods like integration, superposition, and Clapeyron's theorem to determine support reactions under various loads (tension, torsion, bending, buckling). It also explores virtual work, energy methods, frames, trusses, stress states, Mohr's circle, pressure vessels, and an introduction to finite element analysis.",
+      "prerequisites": "Résistance des matériaux 1 (020RM1ES2)."
+    },
+    {
+      "code": "020ROBES5",
+      "title": "Robotique",
+      "credits": 4,
+      "description": "This course provides an introduction to robotics concepts, primarily focusing on robotic arms. Students will learn about kinematic and dynamic modeling, trajectory generation, stability analysis, linear and nonlinear control, and adaptive algorithms.",
+      "prerequisites": null
+    },
+    {
+      "code": "020RBMES4",
+      "title": "Robots mobiles",
+      "credits": 4,
+      "description": "This course explores wheeled mobile robots, focusing on their kinematic and dynamic modeling, nonholonomic constraints, and nonlinear control strategies. Students will analyze various robot types like car-like robots, carts, omnidirectional wheels, and bicycle-type robots through case studies.",
+      "prerequisites": null
+    },
+    {
+      "code": "020RCOES2",
+      "title": "Routage et commutation",
+      "credits": 4,
+      "description": "This course covers essential networking concepts, including router/switch architecture, VLANs, routing protocols (RIP, OSPF, BGP), IPv4 address management (NAT), and high availability techniques (STP). Students will gain practical experience with hardware implementation and network simulation, aligning with the second semester of the Cisco CCNA Routing & Switching curriculum.",
+      "prerequisites": "Introduction aux réseaux de données (020INRES1)."
+    },
+    {
+      "code": "020SMAES4",
+      "title": "Science des matériaux avancée",
+      "credits": 4,
+      "description": "This course explores the properties and processing of metals and polymers. Students will learn about metal alloys (ferrous and non-ferrous), heat treatments, and mechanical behavior, as well as polymer synthesis, characterization, and physical properties, including viscoelasticity and applications.",
+      "prerequisites": "Introduction aux sciences des matériaux (020ISMNI2 ou 020ISMCI2)."
+    },
+    {
+      "code": "020SPMES4",
+      "title": "Sélection et propriétés des matériaux",
+      "credits": 4,
+      "description": "This course explores the mechanical behavior of materials, focusing on the relationship between material structure and properties. Students will learn about continuum mechanics, elastic, plastic, and viscoelastic behavior, and gain an understanding of creep, fatigue, and fracture mechanics.",
+      "prerequisites": "Résistance des matériaux 1 (020RM1ES2)."
+    },
+    {
+      "code": "020SYSES2",
+      "title": "Signaux et systèmes",
+      "credits": 4,
+      "description": "This course introduces fundamental concepts in signal and system analysis for both continuous and discrete signals. Students will learn about Fourier transforms, linear systems, sampling, Z-transforms, and digital filter design using techniques like FFT, and both recursive and non-recursive filters.",
+      "prerequisites": "Calculs différentiels (020CDFNI4) ou Analyse 2 (020AN2CI3)."
+    },
+    {
+      "code": "020SSTES4",
+      "title": "Space and micro/nano satellite technologies",
+      "credits": 4,
+      "description": "This course explores the design, analysis, and development of micro/nano satellites, including orbital mechanics, subsystem design, electronic systems, attitude control, testing, and ground stations. Students will apply these concepts to design and implement a 1U CubeSat using commercial components.",
+      "prerequisites": "Electronique analogique (020ELAES1), Mécanique 1 (020MC1NI1 ou 020MC1CI1)."
+    },
+    {
+      "code": "020STGES5",
+      "title": "Stage en entreprise",
+      "credits": 2,
+      "description": "This internship provides students with the opportunity to apply their academic knowledge in a professional setting, develop practical skills and professional relationships, and gain valuable real-world experience to enhance their future employability. It bridges the gap between theory and practice, preparing students for the realities of the engineering workplace.",
+      "prerequisites": null
+    },
+    {
+      "code": "020STAES1",
+      "title": "Statistiques",
+      "credits": 4,
+      "description": "This course covers statistical inference, including hypothesis testing, estimation, and confidence intervals, for both parametric and non-parametric data. Students will learn to analyze data from samples, perform various statistical tests, and build linear regression models for prediction and variance analysis.",
+      "prerequisites": "Probabilités (020PRBNI4) ou Analyse 3 (020AN3CI4)."
+    },
+    {
+      "code": "020SDAES3",
+      "title": "Structures de données et algorithmes",
+      "credits": 4,
+      "description": "This course covers fundamental data structures and algorithms, focusing on their complexity analysis and practical applications. Students will learn to implement and analyze algorithms for searching, sorting, string manipulation, and graph problems, including topics like dynamic programming and linear programming.",
+      "prerequisites": null
+    },
+    {
+      "code": "020SMPES3",
+      "title": "Systèmes à microprocesseurs",
+      "credits": 4,
+      "description": "This course explores the architectures and differences between microprocessors, microcontrollers, and DSPs, focusing on the PIC18F2520 microcontroller. Students will learn to design, simulate, and implement a microprocessor-based system, covering topics like memory management, I/O, interrupts, timers, analog-to-digital conversion, serial communication, and various microcontroller peripherals and modes.",
+      "prerequisites": "Techniques digitales (020TEDNI4 ou 020TEDCI4)."
+    },
+    {
+      "code": "020SPAES5",
+      "title": "Systèmes de propulsion automobile",
+      "credits": 4,
+      "description": "This course covers the fundamentals of terrestrial transmission and propulsion systems, focusing on energy consumption, environmental impact, and the configurations and principles of operation of conventional, electric (battery and fuel cell), and hybrid vehicle propulsion technologies. Students will learn about hybrid drive technologies, stop/start systems, and regenerative braking.",
+      "prerequisites": "Automobile (020AUTES3), Moteurs thermiques (020MOTES4)."
+    },
+    {
+      "code": "020SSEES4",
+      "title": "Systèmes d'exploitation",
+      "credits": 4,
+      "description": "This course, \"Evolution des systèmes d’exploitation,\" covers the structure and evolution of operating systems, focusing on key concepts like process management, memory management, file systems, I/O, and security, enabling students to understand how operating systems function and manage resources.",
+      "prerequisites": null
+    },
+    {
+      "code": "020SEMES3",
+      "title": "Systèmes embarqués",
+      "credits": 4,
+      "description": "This embedded systems course introduces students to the fundamentals of embedded systems, covering hardware aspects like FPGAs (Altera/Quartus Prime) and VHDL, as well as software concepts including co-design and the NIOS II processor. Students will learn to design, program, and implement embedded systems using both hardware description languages and processor-based approaches.",
+      "prerequisites": "Techniques digitales (020TEDNI4 ou 020TEDCI4), Informatique 1 (020IF1NI2 ou 020IF1CI2)."
+    },
+    {
+      "code": "020SCNES3",
+      "title": "Systèmes et commandes numériques",
+      "credits": 4,
+      "description": "This course focuses on the modeling, analysis, and control of discrete-time systems. Students will learn Z-transforms, stability criteria, performance analysis, controller design techniques (including Kalman algorithms), and discretization methods for analog control laws.",
+      "prerequisites": "Automatique linéaire (020AULES2), Signaux et systèmes (020SYSES2)."
+    },
+    {
+      "code": "020SYOES4",
+      "title": "Systèmes et réseaux optiques",
+      "credits": 4,
+      "description": "This course covers the fundamentals of optical fibers, including their types, light propagation characteristics, attenuation, and dispersion. It also explores optical components like lasers, LEDs, photodiodes, amplifiers, and ultimately, the design and functionality of optical transmission systems and networks.",
+      "prerequisites": "Electromagnétisme (020EMENI3 ou 020EMECI3)."
+    },
+    {
+      "code": "020SFRES5",
+      "title": "Systèmes frigorifiques",
+      "credits": 4,
+      "description": "This course covers the fundamentals of industrial refrigeration, including the refrigeration cycle, Mollier diagrams, volumetric compression, and components like compressors and heat exchangers. Students will learn about refrigerants, cold room design, and internal/external control and safety equipment, including defrosting techniques.",
+      "prerequisites": "Climatisation 1 (020CL1ES3)."
+    },
+    {
+      "code": "020SMEES1",
+      "title": "Systèmes mécaniques",
+      "credits": 6,
+      "description": "This mechanical engineering core course focuses on the connection between solid kinematics and mechanical design. Students will learn to model, analyze, and solve problems related to mechanisms composed of rigid bodies, including standardized mechanical joints, kinematic chains, and the calculation of forces, motion, and energy within these systems, while applying this knowledge through hands-on practical exercises.",
+      "prerequisites": "Dessin industriel (020DISNI4 ou 020DISCI4), Mécanique 2 (020MC2CI3 ou 020MC2NI3)."
+    },
+    {
+      "code": "020MEMES5",
+      "title": "Systèmes micro-électro-mécaniques - MEM",
+      "credits": 4,
+      "description": "This course covers materials and microfabrication techniques used in the design and development of Micro-Electro-Mechanical Systems (MEMS). Students will learn about MEMS structures, computer-aided design, packaging, and future trends, focusing on the practical application of these technologies.",
+      "prerequisites": "Capteurs et instrumentations (020CEIES3)."
+    },
+    {
+      "code": "020SNLES5",
+      "title": "Systèmes non-linéaires",
+      "credits": 4,
+      "description": "This course explores the analysis and control of nonlinear systems, covering topics such as classifying nonlinearities, stability analysis techniques (e.g., describing function, Loeb criterion, Lyapunov stability), and advanced control methods like sliding mode control and exact linearization. Students will learn to design controllers for nonlinear systems and address challenges like chattering and uncertainties.",
+      "prerequisites": null
+    },
+    {
+      "code": "020SSHES5",
+      "title": "Systèmes servo-hydrauliques",
+      "credits": 4,
+      "description": "This course covers the modeling and control of hydraulic servo systems, focusing on both theoretical foundations and practical techniques. Students will learn to model, identify, and control these systems using classical and advanced control algorithms, with hands-on experience using Matlab/Simulink.",
+      "prerequisites": ": Mécanique des fluides 1 (020MF1ES1) et Automatique linéaire (020AULES2)."
+    },
+    {
+      "code": "020TCOES2",
+      "title": "Techniques d'expression et de communication",
+      "credits": 2,
+      "description": "This course focuses on developing effective communication skills, both written and oral. Students will learn strategies for adapting their communication style to different audiences and contexts, mastering aspects like clarity, conciseness, structure, and impactful delivery.",
+      "prerequisites": null
+    },
+    {
+      "code": "020IDOES5",
+      "title": "Technologies de l’Internet des objets",
+      "credits": 4,
+      "description": "This IoT course covers the end-to-end IoT chain, focusing on the constraints and challenges of connected devices, hardware architecture, wireless communication technologies (including IEEE 802.11, LPWAN, and routing protocols), IPv6, application layer protocols, and operating systems for IoT devices. Students will gain practical experience through hands-on labs and deployment of a complete IoT system.",
+      "prerequisites": "Introduction aux réseaux de données (020INRES1)."
+    },
+    {
+      "code": "020TPPES1",
+      "title": "Thermodynamique : Principes et changements de phase",
+      "credits": 6,
+      "description": "This course teaches students to analyze physical objects as systems using conservation laws of mass, energy, and entropy. Topics include thermodynamic properties of pure substances, energy and mass conservation, entropy, and applications to closed systems, flow devices, and basic vapor/gas cycles.",
+      "prerequisites": "Thermodynamique 1 (020TH1NI2 ou 020TH1CI2)."
+    },
+    {
+      "code": "020TICES5",
+      "title": "Théorie de l'information et du codage",
+      "credits": 4,
+      "description": "This course explores the limits of digital communication and techniques to achieve near-optimal performance. Students will learn information theory concepts like entropy and channel capacity, and study various channel coding techniques, including block codes, cyclic codes, BCH codes, Reed-Solomon codes, LDPC codes, turbo codes, and polar codes.",
+      "prerequisites": "Communications analogiques et numériques (020CONES3)."
+    },
+    {
+      "code": "020TROES2",
+      "title": "Théorie des graphes et recherche opérationnelle",
+      "credits": 4,
+      "description": "This course introduces graph theory and operations research as engineering problem-solving tools. Students will learn to model problems using graphs, analyze network properties, apply optimization algorithms like shortest path and maximum flow, and use software to solve linear programming problems.",
+      "prerequisites": null
+    },
+    {
+      "code": "020THSES2",
+      "title": "Théorie du signal",
+      "credits": 4,
+      "description": "This course provides an introduction to the fundamental concepts of signal processing and analysis, covering both deterministic and random signals in continuous and discrete time domains. Students will learn about Fourier transforms, linear systems, sampling theory, Z-transforms, and the analysis of random signals, equipping them with the tools to analyze and filter various signal types.",
+      "prerequisites": "Analyse 2 (020AN2NI 4 ), Probabilités (020PRBNI4) ou Analyse 3 (020AN3CI4)"
+    },
+    {
+      "code": "020TIMES4",
+      "title": "Traitement d'images",
+      "credits": 4,
+      "description": "This course introduces fundamental image processing techniques in both spatial and frequency domains. Students will learn about image transformations, filtering, mathematical morphology, compression, and restoration methods, including histogram manipulation, convolution, Fourier transforms, and morphological operations.",
+      "prerequisites": "Théorie du signal (020THSES2)."
+    },
+    {
+      "code": "020TNSES3",
+      "title": "Traitement numérique du signal",
+      "credits": 4,
+      "description": "This course covers the fundamentals of digital signal processing, including sampling, quantization, digital filter design (FIR and IIR), the Discrete Fourier Transform (DFT), and filter synthesis techniques. Students will learn to analyze and design digital signal processing systems and implement them in real-time using tools like Matlab and Simulink.",
+      "prerequisites": "Théorie du signal (020THSES2)."
+    },
+    {
+      "code": "020TRCES2",
+      "title": "Transfert de chaleur",
+      "credits": 6,
+      "description": "This course covers the fundamental principles of heat transfer – conduction, convection, and radiation – and applies them to solving engineering thermal problems. Students will learn about steady-state and transient conduction, forced and natural convection, heat exchanger principles, and thermal radiation exchange between surfaces.",
+      "prerequisites": "Thermodynamique E (020THENI3)."
+    },
+    {
+      "code": "020TRBES3",
+      "title": "Turbomachines",
+      "credits": 4,
+      "description": "This course covers the principles and operation of various types of pumps (centrifugal and positive displacement), fans, compressors, and turbines (gas and steam). Students will gain an understanding of the design, function, and application of these important mechanical engineering components.",
+      "prerequisites": null
+    },
+    {
+      "code": "020VIBES2",
+      "title": "Vibrations",
+      "credits": 4,
+      "description": "This course explores the vibrations of one-dimensional systems, covering topics such as free and forced oscillations (damped and undamped), stability, electrical analogies, resonance, and nonlinear oscillations. It also introduces two-degree-of-freedom systems with mechanical examples and applications.",
+      "prerequisites": "Mécanique 2 (020MC2CI3 ou 020MC2NI3)."
+    },
+    {
+      "code": "020VIRES5",
+      "title": "Virologie informatique",
+      "credits": 4,
+      "description": "This course covers the technical aspects of computer viruses and malware, including their structure, reverse engineering, formal models, and methods of infection. Students will learn about different types of malware, techniques for stealth and propagation, and strategies for anti-virus and anti-spam defense.",
+      "prerequisites": null
+    },
+    {
+      "code": "020VRTES4",
+      "title": "Virtualisation",
+      "credits": 4,
+      "description": "This course introduces the fundamentals of virtualization, covering its benefits, drawbacks, use cases, and different types like full virtualization, paravirtualization, and containerization. Students will learn about hypervisors, virtualization solutions (e.g., Xen, ESXi, KVM), network and storage virtualization, and how virtualization relates to cloud technologies like OpenStack.",
+      "prerequisites": null
+    }
+  ]
+}

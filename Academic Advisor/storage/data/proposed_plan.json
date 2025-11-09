@@ -1,0 +1,137 @@
+[
+  {
+  "program": "Programme Génie Informatique et Communications",
+  "year": 2022,
+  "plan": [
+    {
+      "semester": 1,
+      "courses": [
+        { "code": "020ELAES1", "title": "Electronique analogique", "credits": 6 },
+        { "code": "020GPRES2", "title": "Gestion de projets", "credits": 4 },
+        { "code": "020INRES1", "title": "Introduction aux réseaux de données", "credits": 6 },
+        { "code": "020CPPES1", "title": "Programmation orientée objets", "credits": 6 },
+        { "code": "020STAES1", "title": "Statistiques", "credits": 4 },
+        { "code": "020THSES2", "title": "Théorie du signal", "credits": 4 },
+        { "code": null, "title": "Optionnelle fermée - Culture générale", "credits": 2 }
+      ],
+      "total_credits": 32
+    },
+    {
+      "semester": 2,
+      "courses": [
+        { "code": "020ADUES3", "title": "Administration Unix", "credits": 4 },
+        { "code": "020BDRES2", "title": "Bases de données relationnelles", "credits": 4 },
+        { "code": "020CONES3", "title": "Communications analogiques et numériques", "credits": 6 },
+        { "code": "020ELNES2", "title": "Electronique numérique", "credits": 6 },
+        { "code": "020RCOES2", "title": "Routage et commutation", "credits": 4 },
+        { "code": "020TCOES2", "title": "Techniques d'expression et de communication", "credits": 2 },
+        { "code": "020TROES2", "title": "Théorie des graphes et recherche opérationnelle", "credits": 4 },
+        { "code": null, "title": "Optionnelle ouverte - Arabe", "credits": 2 }
+      ],
+      "total_credits": 32
+    },
+    {
+      "semester": 3,
+      "courses": [
+        { "code": "020ETHES3", "title": "Ethique et entreprise", "credits": 4 },
+        { "code": "020INDES2", "title": "Innovation and design thinking", "credits": 2 },
+        { "code": "020SDAES3", "title": "Structures de données et algorithmes", "credits": 4 },
+        {
+          "code": null,
+          "title": "UE d’Option Génie logiciel",
+          "credits": 16,
+          "options": [
+            { "code": "020ADPES3", "title": "Analyse de projets", "credits": 4 },
+            { "code": "020AROES3", "title": "Architecture des ordinateurs", "credits": 4 },
+            { "code": "020IA2ES4", "title": "Intelligence artificielle", "credits": 4 },
+            { "code": "020MCOES3", "title": "Modèles de conception", "credits": 4 }
+          ]
+        },
+        {
+          "code": null,
+          "title": "UE d’Option Réseaux de télécommunications",
+          "credits": 16,
+          "options": [
+            { "code": "020CSFES3", "title": "Communications sans-fil", "credits": 4 },
+            { "code": "020PGAES3", "title": "Propagation guidée et antennes", "credits": 4 },
+            { "code": "020SMPES3", "title": "Systèmes à microprocesseurs", "credits": 4 },
+            { "code": "020TNSES3", "title": "Traitement numérique du signal", "credits": 4 }
+          ]
+        },
+        { "code": null, "title": "Optionnelles fermées", "credits": 8 }
+      ],
+      "total_credits": 34
+    },
+    {
+      "semester": 4,
+      "courses": [
+        { "code": "020ANGES4", "title": "Anglais", "credits": 4 },
+        { "code": "020PRMES4", "title": "Projet Multidisciplinaire", "credits": 6 },
+        {
+          "code": null,
+          "title": "UE d’Option Génie logiciel",
+          "credits": 12,
+          "options": [
+            { "code": "020APDES4", "title": "Applications distribuées", "credits": 4 },
+            { "code": "020PCOES4", "title": "Principes des compilateurs", "credits": 4 },
+            { "code": "020SSEES4", "title": "Systèmes d'exploitation", "credits": 4 }
+          ]
+        },
+        {
+          "code": null,
+          "title": "UE d’Option Réseaux de télécommunications",
+          "credits": 12,
+          "options": [
+            { "code": "020PSRES4", "title": "Performances des systèmes informatiques et des réseaux", "credits": 4 },
+            { "code": "020REMES4", "title": "Réseaux mobiles", "credits": 4 },
+            { "code": "020SYOES4", "title": "Systèmes et réseaux optiques", "credits": 4 }
+          ]
+        },
+        { "code": null, "title": "Optionnelle ouverte", "credits": 2 },
+        { "code": null, "title": "Optionnelles fermées", "credits": 8 }
+      ],
+      "total_credits": 32
+    },
+    {
+      "semester": 5,
+      "courses": [
+        { "code": "020CMPES5", "title": "Comptabilité", "credits": 4 },
+        { "code": "020DROES5", "title": "Droit", "credits": 2 },
+        { "code": "020MNGES5", "title": "Management", "credits": 2 },
+        { "code": "020STGES5", "title": "Stage en entreprise", "credits": 2 },
+        {
+          "code": null,
+          "title": "UE d’Option Génie logiciel",
+          "credits": 16,
+          "options": [
+            { "code": "020GLOES5", "title": "Génie logiciel", "credits": 4 },
+            { "code": "020IAEES5", "title": "Intégration des applications d'entreprises", "credits": 4 },
+            { "code": "020PPLES5", "title": "Programmation parallèle", "credits": 4 },
+            { "code": "020VIRES5", "title": "Virologie informatique", "credits": 4 }
+          ]
+        },
+        {
+          "code": null,
+          "title": "UE d’Option Réseaux de télécommunications",
+          "credits": 16,
+          "options": [
+            { "code": "020IDRES5", "title": "Ingénierie des réseaux", "credits": 4 },
+            { "code": "020QOSES5", "title": "Qualité de service dans les réseaux", "credits": 4 },
+            { "code": "020RESES5", "title": "Réseaux d’entreprise sécurisés", "credits": 4 },
+            { "code": "020TICES5", "title": "Théorie de l’information et du codage", "credits": 4 }
+          ]
+        },
+        { "code": null, "title": "Optionnelles fermées", "credits": 8 }
+      ],
+      "total_credits": 34
+    },
+    {
+      "semester": 6,
+      "courses": [
+        { "code": "020PFEES6", "title": "Projet de Fin d’Études", "credits": 16 }
+      ],
+      "total_credits": 16
+    }
+    ]
+  }
+]
