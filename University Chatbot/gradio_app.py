@@ -11,24 +11,39 @@ from src.agentic_rag import graph  # your RAG agent
 
 # Session handling
 session_ids = {}
-
 def chat_stream(message, history, request: gr.Request):
     client_id = f"{request.client.host}-{request.headers.get('user-agent', '')}"
     session_id = session_ids.setdefault(client_id, str(uuid.uuid4()))
     config = {"configurable": {"thread_id": session_id}}
-    response_text = ""
+    accumulated_text = ""
     try:
-        for event in graph.stream(
+        for message_chunk,metadata in graph.stream(
             {"messages": [{"role": "user", "content": message}]},
-            stream_mode="values",
+            stream_mode="messages",
             config=config,
         ):
-            chunk = event["messages"][-1].content
-            response_text = chunk
-        return response_text
-    except Exception as e:
-        return f"Agent error: {str(e)}"
+            # Stream mode instead of invoke
+       
+            if not message_chunk.content:
+                continue
 
+            node_type = metadata.get("langgraph_node")
+
+            if node_type == "generate":
+                # Accumulate chunks for smooth streaming
+                accumulated_text += message_chunk.content
+                yield accumulated_text
+
+            elif node_type == "query_or_respond":
+                # For query_or_respond, just yield as-is (usually a complete message)
+                accumulated_text += message_chunk.content
+                yield accumulated_text
+       # for msg in event["messages"]:
+
+            
+    except Exception as e:
+        print( f"Agent error: {str(e)}")
+        return "Sorry, something went wrong. Please try again."
 
 # Load images
 logo_path = "assets/logo.png"
@@ -127,12 +142,11 @@ with gr.Blocks(title="ESIB University Chatbot") as demo:
         """)
 
 
-
         gr.ChatInterface(
             fn=chat_stream,
             examples=[
                 "What master's degrees are offered at ESIB?",
-                "What are the admission requirements?",
+                "Quelles sont les conditions d’admission?",
                 "Tell me about the engineering programs."
             ],
             theme="soft",

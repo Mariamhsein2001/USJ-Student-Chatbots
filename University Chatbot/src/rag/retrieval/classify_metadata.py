@@ -8,7 +8,7 @@ from core.llm import get_llm
 import re
 # === Setup Logging ===
 logging.basicConfig(
-    level=logging.INFO,
+    level=logging.ERROR,
     format="%(asctime)s [%(levelname)s] %(message)s"
 )
 logger = logging.getLogger(__name__)
@@ -48,7 +48,7 @@ Your tasks:
 3. Département Génie Électrique et Mécanique: Choose only if the query is about undergraduate electrical or mechanical or information and communications or computer programs, courses, or projects — and not about graduate/master/Ph.D. programs.
 4. Département Génie Civil et Environnement: Choose if the query is related to civil engineering, environmental engineering, construction, or sustainability programs whether it is credits,courses,..
 5. Département Génie Chimique et Pétrochimique: Choose if the query pertains to chemical or petrochemical engineering, including industrial processes, chemistry, and refining.
-6. Département des Etudes Doctorales: Choose if the query is related to academic information (not administrative) about any master's or doctoral program (including "Master en ..." or Ph.D. programs), research opportunities, thesis topics — even if the query also mentions a specific engineering department.If the user wants to know general information about a masters degree.Do NOT choose this if the query is administrative or general — such as asking what master's programs exist, how to apply, admission requirements, or tuition — in those cases choose "École Supérieure d’Ingénieurs de Beyrouth (ESIB)".
+6. Département des Etudes Doctorales: Choose if the query is related to academic information (not administrative) about any master's or doctoral program (including "Master en ..." or Ph.D. programs), research opportunities, thesis topics — even if the query also mentions a specific engineering department.If the user wants to know general information about a masters degree.Do NOT choose this if the query is administrative or general — such as asking what master's programs exist, how to apply, admission requirements, or tuition — in those cases choose "École Supérieure d’Ingénieurs de Beyrouth (ESIB)".example:Tell me about master's in ..
 7. CINET : Centre des Industries Électriques et des Télécommunications (NUD): Choose if the query concerns research or development in the electrical industry, telecommunications, or related technologies.also called CIMTI Centre d'Informatique, de Modélisation et de Technologies de l'Information (NUD)
 8. CLERC : Centre Libanais d'Etudes et de Recherches de la Construction: Choose if the query is about construction research, methods, materials, or innovations in the building industry.
 

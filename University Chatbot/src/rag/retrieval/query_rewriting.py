@@ -10,7 +10,7 @@ from core.llm import get_llm
 
 # === Setup Logging ===
 logging.basicConfig(
-    level=logging.INFO,
+    level=logging.ERROR,
     format="%(asctime)s [%(levelname)s] %(message)s"
 )
 logger = logging.getLogger(__name__)

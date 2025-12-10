@@ -8,34 +8,18 @@ from src.agents.query_or_respond import get_query_or_respond_node
 from src.agents.generation_agent import generate
 from src.agents.tools import retrieve_university_info,find_course_tool
 
-from langchain_core.messages import HumanMessage,AIMessage
+from langchain_core.messages import HumanMessage
 
 load_dotenv()
 api_key = os.getenv("GOOGLE_API_KEY")
 
 memory = MemorySaver()
 
-class ToolNodeWithStatus(ToolNode):
-    def __call__(self, state: MessagesState):
-        # Step 1: Show "Searching..."
-        yield {
-            "messages": state["messages"] + [
-                AIMessage(content="🔎 Searching for relevant information...")
-            ]
-        }
-
-        # Step 2: Run the actual tool
-        result_state = super().__call__(state)
-
-        # Step 3: Replace "Searching..." with the real response
-        final_messages = state["messages"] + result_state["messages"][-1:] 
-        yield {"messages": final_messages}
-
 # --- Build Graph ---
 graph_builder = StateGraph(MessagesState)
 
 graph_builder.add_node("query_or_respond", get_query_or_respond_node(api_key))
-graph_builder.add_node("tools", ToolNodeWithStatus([
+graph_builder.add_node("tools", ToolNode([
     retrieve_university_info,
     find_course_tool
 ]))
@@ -61,22 +45,35 @@ graph = graph_builder.compile(checkpointer= memory)
 #     f.write(graph.get_graph().draw_mermaid_png())
 # print("Saved graph structure as graph.png")
 
-# --- Run example session ---
-if __name__ == "__main__":
+def run_chatbot_stream():
     config = {"configurable": {"thread_id": "session_001"}}
 
     inputs = {
         "messages": [
-            HumanMessage(content="What is the prerequiste of statistics")
+            HumanMessage(content="tell me about master for AI ")
         ]
     }
 
     # Stream mode instead of invoke
-    for event in graph.stream(inputs, config=config, stream_mode="values"):
-        # Pretty print each message in the current event
-        for msg in event["messages"]:
-            msg.pretty_print()
-        print("\n" + "-"*50 + "\n")  # optional separator for readability
+    accumulated_text = ""
+
+    for message_chunk, metadata in graph.stream(inputs, config=config, stream_mode="messages"):
+        if not message_chunk.content:
+            continue
+
+        node_type = metadata.get("langgraph_node")
+
+        if node_type == "generate":
+            # Accumulate chunks for smooth streaming
+            accumulated_text += message_chunk.content
+            yield accumulated_text
+
+        elif node_type == "query_or_respond":
+            # For query_or_respond, just yield as-is (usually a complete message)
+            accumulated_text += message_chunk.content
+            yield accumulated_text       # for msg in event["messages"]:
+        #     msg.pretty_print()
+        # print("\n" + "-"*50 + "\n")  # optional separator for readability
 
     # # User message 2 (follow-up)
     # inputs_2 = {"messages": [HumanMessage(content="Tell me more about the AI program.")]}
@@ -85,4 +82,9 @@ if __name__ == "__main__":
     # print("\n--- Step 2 ---")
     # for msg in output_2["messages"]:
     #     print(f"{getattr(msg, 'type', '').upper()}: {msg.content}")
+
+
+if __name__ == "__main__":
+    for response in run_chatbot_stream():
+        print(response)
  
