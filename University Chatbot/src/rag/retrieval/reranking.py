@@ -3,13 +3,13 @@ import requests
 import logging
 from dotenv import load_dotenv
 from langchain_community.vectorstores import FAISS
-from retrieval.embedding_model import get_embedding_function
+from rag.retrieval.embedding_model import get_embedding_function
 from typing import List
 from langchain.schema.document import Document
 
 # === Setup Logging ===
 logging.basicConfig(
-    level=logging.INFO,
+    level=logging.ERROR,
     format="%(asctime)s [%(levelname)s] %(message)s"
 )
 logger = logging.getLogger(__name__)

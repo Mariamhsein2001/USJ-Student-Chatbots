@@ -4,11 +4,11 @@ from rag.retrieval.embedding_model import get_embedding_function
 from rag.retrieval.query_rewriting import rewrite_query
 from rag.retrieval.classify_metadata import classify_query_header
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from rag.retrieval.rerank import rerank_documents 
+from rag.retrieval.reranking import rerank_documents 
 import logging
 
 # Setup logging
-logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
+logging.basicConfig(level=logging.ERROR, format="%(asctime)s [%(levelname)s] %(message)s")
 
 # Load embedding model and FAISS indices
 embedding_model = get_embedding_function()
@@ -78,14 +78,14 @@ def hierarchical_retrieval(query: str, chat_history: list[tuple[str, str]] = Non
         final_results = lvl3.similarity_search_by_vector(query_embedding, k=5)
 
     # Output
-    print(f"\nRetrieved {len(final_results)} full documents from Level 3.\n")
-    for i, doc in enumerate(final_results, 1):
-        print(f"\n--- Document {i} ---")
-        print(doc.page_content)
-        print("Metadata:", doc.metadata)
+    # print(f"\nRetrieved {len(final_results)} full documents from Level 3.\n")
+    # for i, doc in enumerate(final_results, 1):
+    #     print(f"\n--- Document {i} ---")
+    #     print(doc.page_content)
+    #     print("Metadata:", doc.metadata)
 
     total_time = time.time() - overall_start
-    print(f"\nTotal time: {total_time:.2f} seconds")
+    print(f"\n Retrieval Total time: {total_time:.2f} seconds")
     logging.info(f"Total hierarchical retrieval time: {total_time:.2f}s")
 
     return final_results

@@ -4,7 +4,7 @@ import logging
 from typing import Optional, List, Dict
 from difflib import SequenceMatcher
 logging.basicConfig(
-    level=logging.INFO,  # Show INFO and above
+    level=logging.ERROR,  # Show INFO and above
     format="%(asctime)s - %(levelname)s - %(message)s",
 )
 def is_exact_match(course_name: str, title: str) -> bool:
