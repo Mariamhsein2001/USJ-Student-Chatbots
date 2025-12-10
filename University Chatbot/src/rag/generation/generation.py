@@ -13,7 +13,7 @@ api_key = os.getenv("GOOGLE_API_KEY")
 
 # --- Initialize LLM with streaming ---
 llm = init_chat_model(
-    "gemini-2.0-flash",
+    "gemini-2.5-flash",
     model_provider="google_genai",
     google_api_key=api_key,
     streaming=True  # Enable streaming
@@ -51,7 +51,6 @@ Answer:
 """)
 
     chain = prompt_template | llm
-
     # Stream the response
     for event in chain.stream({
         "chat_history": chat_history,
@@ -59,7 +58,7 @@ Answer:
         "question": question
     }):
         # event contains partial message(s)
-        yield event.content  # Or adjust based on the event structure
+        yield event.content  
 
 
 # --- Test streaming with retrieval ---
