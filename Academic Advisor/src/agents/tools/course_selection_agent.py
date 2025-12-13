@@ -1,3 +1,4 @@
+from functools import lru_cache
 import sys, os
 from pathlib import Path
 
@@ -8,8 +9,12 @@ sys.path.append(str(Path(__file__).resolve().parents[3]))
 from core.prompts import COURSE_SELECTION_PROMPT
 from utils.utilities import load_rules_from_file
 
+@lru_cache(maxsize=32)
+def get_gpa_rules():
+    return load_rules_from_file("storage/data/rules/gpa_rules.txt")
+
 # Load GPA rules once (avoid reloading file each call)
-GPA_RULES = load_rules_from_file("storage/data/rules/gpa_rules.txt")
+GPA_RULES = get_gpa_rules()
 
 
 def generate_course_selection_plan(context: dict, llm, interests: str = "", stream_handler=None) -> dict:

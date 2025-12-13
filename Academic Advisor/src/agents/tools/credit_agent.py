@@ -9,7 +9,13 @@ from core.prompts import (
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../")))
 
 from utils.utilities import load_rules_from_file
-credit_rules = load_rules_from_file("storage/data/rules/credit_rules.txt")
+from functools import lru_cache
+
+@lru_cache(maxsize=32)
+def get_credit_rules():
+    return load_rules_from_file("storage/data/rules/credit_rules.txt")
+
+credit_rules = get_credit_rules()
 
 
 def generate_credits_interests_plan(context: dict, llm, interests: str = "") -> dict:
