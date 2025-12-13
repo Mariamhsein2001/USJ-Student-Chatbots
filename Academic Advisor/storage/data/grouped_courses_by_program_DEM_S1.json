@@ -1081,7 +1081,7 @@
       "extra_info": "Option Génie Logiciel"
     },
     {
-      "course": "Systèmes à microprocesseurs ",
+      "course": "Systèmes à microprocesseurs",
       "schedule": {
         "group_1": {
           "instructor": "A. CHKAIBANE",
@@ -1154,7 +1154,7 @@
       "extra_info": "Option Réseaux de Télécommunications"
     },
     {
-      "course": "Propagation guidee et antennes",
+      "course": "Propagation guidée et antennes",
       "schedule": {
         "group_1": {
           "instructor": "E.RACHID",
@@ -1208,7 +1208,7 @@
       ],
       "5":[
           {
-          "course": "Intégration des applications d'entreprises ",
+          "course": "Intégration des applications d'entreprises",
           "extra_info":"Option Génie Logiciel",
           "schedule": {
             "group_1": {
