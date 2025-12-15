@@ -12,7 +12,8 @@ from src.agents.tools.credit_agent import generate_credits_interests_plan
 from src.agents.tools.course_selection_agent import generate_course_selection_plan
 from core.context import fetch_user_context
 import time
-from src.core.cache import GLOBAL_CACHE_STORE 
+from core.cache import GLOBAL_CACHE_STORE 
+from src.agents.tools.credits_courses import credit_analysis
 
 # Pydantic models
 class CourseItem(BaseModel):
@@ -94,8 +95,8 @@ avoiding duplication, using recommended number of credits,prioritizing required 
 
 Rules:
 - Each course must include: code, name, credits, course_type, and reason.
-- MAKE SURE TO CONSIDER  the total credits from Credits focused plan and return the total credits.
-- The total number of credits should be min 28 and max 36 unless requested otherwise from Credits & Interests plan or user.
+- MAKE SURE TO CONSIDER  the total credits from Credits focused plan and user interests return the total credits.
+- The total number of credits should be minimum 28 and maximum 36 unless requested otherwise from Credits & Interests plan or user.
 - If gpa is less than 12 , maximum number of credits is 30 credits regardless of user's number of credits.
 - Include general advise for the student.
 - Give reasoning for each course selection.
@@ -136,7 +137,11 @@ Rules:
         {"code": c.code, "course": c.course, "type": c.course_type}
         for c in final_plan.recommended_courses
     ]
-    # print("courses",simple_courses)
+    if semester > 1:
+        print("Performing credit analysis based on GPA...")
+        simple_courses = credit_analysis(username, simple_courses, gpa)
+
+
     # Generate non-conflicting schedules
     t4 = time.time()
     schedules = finalize_non_conflicting_schedule(username, simple_courses)
@@ -161,7 +166,7 @@ Rules:
 
 
 if __name__ == "__main__":
-    result = combine_course_plans("Leila",interests="cybersecurity,26 credits")
+    result = combine_course_plans("Alice",interests="AI and data science interests, prefers 36 credits, wants balanced workload")
     print(result["plan_credits"])
     print(result["combined_raw"])
     for sched_name, sched in result["schedules"].items():

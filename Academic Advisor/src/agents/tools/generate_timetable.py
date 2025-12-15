@@ -48,7 +48,7 @@ def generate_timetable(courses):
     ]
     block_minutes = [(parse_time(s), parse_time(e)) for s, e in time_blocks]
 
-    days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+    days = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi"]
 
     # Initialize empty grid
     grid = {day: [""] * len(time_blocks) for day in days}
@@ -142,6 +142,5 @@ if __name__ == "__main__":
         {'group': 'group_1', 'schedule': {'Vendredi': [{'start_time': '16:30', 'end_time': '19:15', 'weeks': 'all'}]},
          'course': 'Programmation pour le WEB'}
     ]
-
     html_output = generate_timetable(courses)
     print(html_output)
