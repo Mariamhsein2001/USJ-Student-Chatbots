@@ -10,15 +10,13 @@ from src.agents.tools import retrieve_university_info,find_course_tool
 
 from langchain_core.messages import HumanMessage
 
-load_dotenv()
-api_key = os.getenv("GOOGLE_API_KEY")
 
 memory = MemorySaver()
 
 # --- Build Graph ---
 graph_builder = StateGraph(MessagesState)
 
-graph_builder.add_node("query_or_respond", get_query_or_respond_node(api_key))
+graph_builder.add_node("query_or_respond", get_query_or_respond_node())
 graph_builder.add_node("tools", ToolNode([
     retrieve_university_info,
     find_course_tool

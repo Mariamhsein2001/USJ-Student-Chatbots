@@ -48,7 +48,7 @@ def generate_timetable(courses):
     ]
     block_minutes = [(parse_time(s), parse_time(e)) for s, e in time_blocks]
 
-    days = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi"]
+    days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
 
     # Initialize empty grid
     grid = {day: [""] * len(time_blocks) for day in days}
@@ -65,7 +65,7 @@ def generate_timetable(courses):
         if stype:
             extras.append(f"({stype})")
         if weeks and weeks != "all":
-            extras.append(f"<small>Sem: {weeks}</small>")
+            extras.append(f"<small>Week: {weeks}</small>")
         if extras:
             parts.append("<br>".join(extras))
         return "<br>".join(parts)
@@ -108,7 +108,7 @@ def generate_timetable(courses):
     html = [
         "<h3>🗓️ Timetable</h3>",
         "<table border='1' cellpadding='8' cellspacing='0' style='border-collapse: collapse; width: 100%; text-align: center; font-family: sans-serif;'>",
-        "<thead style='background-color: #f2f2f2;'><tr><th>Heure</th>" +
+        "<thead style='background-color: #f2f2f2;'><tr><th>Time</th>" +
         "".join(f"<th>{day}</th>" for day in days) + "</tr></thead><tbody>"
     ]
 

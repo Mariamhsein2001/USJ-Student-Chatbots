@@ -64,6 +64,7 @@ def combine_course_plans(username: str, interests: str = "") -> dict:
     planner_input = context.copy()
     username= planner_input['username'] 
     gpa = planner_input['gpa'] 
+    semester = planner_input['semester']
     with ThreadPoolExecutor(max_workers=2) as executor:
         # Pass the single input dictionary to the functions
         future_credits = executor.submit(generate_credits_interests_plan, planner_input, llm, interests)
@@ -73,33 +74,35 @@ def combine_course_plans(username: str, interests: str = "") -> dict:
         plan_past = future_past.result()
 
     timings["parallel_llms"] = time.time() - t1
-
+    # print(plan_credits['recommendation'])
     # Build merge prompt
     merge_prompt = f"""
 You are a senior academic advisor assistant.
 
 Below are two suggested course plans generated separately:
-1. Credits focused plan:
+1. Credits focused plan (consider the total number of credits from here to build the final plan):
 {plan_credits['recommendation']}
 
-2. Past Performance and Interests focused plan:
+2. Past Performance and Interests focused plan (consider to select the courses from here based on the student's past performance and interests):
 {plan_past['recommendation']}
 
 User Interests: 
 {interests}
 
 Please merge these recommendations into a single cohesive course plan for the student with gpa {gpa},
-avoiding duplication, prioritizing required and core courses, and providing a clear total credit summary.
+avoiding duplication, using recommended number of credits,prioritizing required and core courses, and providing a clear total credit summary.
 
 Rules:
 - Each course must include: code, name, credits, course_type, and reason.
-- Consider the total credits from Credits focused plan and return the total credits.
+- MAKE SURE TO CONSIDER  the total credits from Credits focused plan and return the total credits.
 - The total number of credits should be min 28 and max 36 unless requested otherwise from Credits & Interests plan or user.
-- IF GPA less than 12 then max credits is 30.
+- If gpa is less than 12 , maximum number of credits is 30 credits regardless of user's number of credits.
 - Include general advise for the student.
 - Give reasoning for each course selection.
 - Max 2 Optionnelle Fermée courses should be selected.
 - Ensure the **total credits match the student’s target** if possible.
+- DONOT return fake course codes or names.
+- If {semester} semester, then 1 Optionnelle Fermée courses should be selected.
 - MAKE sure the advise is well thought off and is in the best interests for the student and what benefits them.
 - Return ONLY valid JSON matching this schema:
 
@@ -133,7 +136,7 @@ Rules:
         {"code": c.code, "course": c.course, "type": c.course_type}
         for c in final_plan.recommended_courses
     ]
-    print("courses",simple_courses)
+    # print("courses",simple_courses)
     # Generate non-conflicting schedules
     t4 = time.time()
     schedules = finalize_non_conflicting_schedule(username, simple_courses)
@@ -144,7 +147,7 @@ Rules:
     print("=== TIMINGS ===")
     for k, v in timings.items():
         print(f"{k}: {v:.2f} sec")
-    
+    # print(schedules)
     return {
         "plan_credits": plan_credits,
         # "plan_past": plan_past,
@@ -158,9 +161,9 @@ Rules:
 
 
 if __name__ == "__main__":
-    result = combine_course_plans("Alice",interests="36 credits")
+    result = combine_course_plans("Leila",interests="cybersecurity,26 credits")
     print(result["plan_credits"])
-    print(result["schedule_formatted"])
+    print(result["combined_raw"])
     for sched_name, sched in result["schedules"].items():
         print("--------", sched_name, "--------")
         for c in sched:

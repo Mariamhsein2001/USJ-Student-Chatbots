@@ -1081,7 +1081,7 @@
       "extra_info": "Option Génie Logiciel"
     },
     {
-      "course": "Systèmes à microprocesseurs ",
+      "course": "Systèmes à microprocesseurs",
       "schedule": {
         "group_1": {
           "instructor": "A. CHKAIBANE",
@@ -1090,33 +1090,27 @@
               "start_time": "16:30",
               "end_time": "17:45",
               "week_day": "Mardi",
-              "weeks": "01-08",
+              "weeks": "all",
               "session_type": "cours"
             },
             {
               "start_time": "18:00",
               "end_time": "19:15",
               "week_day": "Mardi",
-              "weeks": "01-08",
+              "weeks": "all",
               "session_type": "cours"
             },
-            {
-              "start_time": "16:30",
-              "end_time": "19:15",
-              "week_day": "Mardi",
-              "weeks": "09-12",
-              "session_type": "Projet en labo"
-            },
+          
             {
               "start_time": "18:00",
               "end_time": "19:15",
               "week_day": "Jeudi",
-              "weeks": "01-08",
+              "weeks": "all",
               "session_type": "cours"
             },
             {
               "start_time": "16:30",
-              "end_time": "19:15",
+              "end_time": "17:45",
               "week_day": "Jeudi",
               "weeks": "09-12",
               "session_type": "Projet en labo"
@@ -1154,7 +1148,7 @@
       "extra_info": "Option Réseaux de Télécommunications"
     },
     {
-      "course": "Propagation guidee et antennes",
+      "course": "Propagation guidée et antennes",
       "schedule": {
         "group_1": {
           "instructor": "E.RACHID",
@@ -1208,7 +1202,7 @@
       ],
       "5":[
           {
-          "course": "Intégration des applications d'entreprises ",
+          "course": "Intégration des applications d'entreprises",
           "extra_info":"Option Génie Logiciel",
           "schedule": {
             "group_1": {
