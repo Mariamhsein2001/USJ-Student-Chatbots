@@ -33,7 +33,7 @@ cd University Chatbot
 ## 2.Create a Python Environment
 
 ```bash
-conda create -n esib-chatbot python=3.10
+conda create -n esib-chatbot python=3.11
 conda activate esib-chatbot
 ```
 
