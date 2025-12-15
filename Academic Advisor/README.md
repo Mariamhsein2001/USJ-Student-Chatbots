@@ -1,4 +1,4 @@
-# 🎓 Agent- Based Academic Advisor Agent
+# 🎓 Agent-Based Academic Advisor Agent
 
 ### **AI-powered academic advisor for course planning and student guidance**
 
@@ -43,7 +43,7 @@ cd Academic Advisor
 Using **conda**:
 
 ```bash
-conda create -n esib-advisor python=3.10
+conda create -n esib-advisor python=3.11
 conda activate esib-advisor
 ```
 
@@ -107,6 +107,10 @@ Running on http://127.0.0.1:7860
 
 Open it in your browser.
 
+Then login based on the users and password in database for example, 
+Username: Alice
+Password: defaultpassword
+
 You now have a **fully streaming, agent-based academic advisor chatbot** running!
 
 ---
@@ -119,16 +123,23 @@ To integrate the advisor into a frontend, mobile app, or other systems, use the 
 python app.py
 ```
 
+**API Endpoint:** `/login`
+**Request Body Example:**
+
+```json
+{
+  "username": "Alice",
+  "password": "defaultpassword"
+}
+```
 **API Endpoint:** `/chat`
 **Request Body Example:**
 
 ```json
 {
-  "message": "Plan my courses for next semester based on AI and Data Science track",
-  "thread_id": "optional_thread_id"
-}
-```
-
+  "username": "Alice",
+  "message": "Hello"
+}`
 ---
 
 #  Final Notes
