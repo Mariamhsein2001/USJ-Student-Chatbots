@@ -1,4 +1,5 @@
 
+import logging
 import sys, os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../")))
 from agents.tools.user_course_info import get_user_context_dict
@@ -39,71 +40,85 @@ def calculate_total_credits(username, course_names):
             continue
         selected_course_credits[cname] = credits
         total_credits += credits
-
     return {
         "total_credits": total_credits,
         "course_credits": selected_course_credits
     }
-    
 def credit_analysis(username, simple_courses, gpa):
     """
-    Analyze student's total credits and GPA to check compliance with credit limits
-    and suggest drops if the limit is exceeded.
+    Enforce credit limits based on GPA.
+    If exceeded, remove courses by priority and
+    return ONLY the remaining courses.
     """
-    # Get course names and total credits
+
+    # Calculate total credits
     course_names = [c['course'] for c in simple_courses]
-    total_credits = calculate_total_credits(username, course_names)['total_credits']
+    credits_data = calculate_total_credits(username, course_names)
 
-    # Determine credit limit based on GPA (probation rule)
-    if gpa < 12:
-        credit_limit = 30
-    else:
-        credit_limit = 36
+    total_credits = credits_data['total_credits']
+    course_credits = credits_data['course_credits']  # dict: {course_name: credits}
 
-    message = ""
-    suggestions = []
+    print(f"Total calculated credits for user '{username}': {total_credits}")
 
-    # Compare total credits with allowed limit
-    if total_credits > credit_limit:
-        excess = total_credits - credit_limit
-        message += f"You exceeded the credit limit by {excess} credits.\n\n"
+    # Credit limit
+    credit_limit = 30 if gpa < 12 else 36
 
-        # Group courses by type
-        courses_by_type = {}
-        for c in simple_courses:
-            ctype = c.get("type", "Other")
-            courses_by_type.setdefault(ctype, []).append(c)
+    remaining_courses = simple_courses.copy()
 
-        # Prioritize removable types
-        drop_priority = ["Optionnelle Ouverte", "Optionnelle Fermée", "UE Obligatoires","Required Previous"]
+    if total_credits <= credit_limit:
+        return remaining_courses
 
-        # Suggest drops
-        for ctype in drop_priority:
-            for course in courses_by_type.get(ctype, []):
-                suggestions.append((course["course"], course["code"], course.get("credits", 0)))
-                excess -= course.get("credits", 0)
-                if excess <= 0:
-                    break
-            if excess <= 0:
-                break
+    excess = total_credits - credit_limit
+    print(f"Total credits {total_credits} exceed limit {credit_limit} by {excess}. Adjusting...")
 
-        if suggestions:
-            message += "Suggested courses to drop:\n" + "\n".join(
-                f"- {name} ({code})" for name, code, _ in suggestions
-            )
-        else:
-            message += "No suitable courses found to drop based on course type."
+    # Group courses by type
+    courses_by_type = {}
+    for c in remaining_courses:
+        ctype = c.get("type", "Other")
+        courses_by_type.setdefault(ctype, []).append(c)
 
-    else:
-        remaining = credit_limit - total_credits
-        message = (
-            f"You are within the credit limit ({total_credits}/{credit_limit} credits).\n"
-            f"You can still take up to {remaining} more credits if desired."
+    # Removal priority (FIXED)
+    drop_priority = [
+        "Optionnelle Ouverte",
+        "Optionnelle Fermée",
+        "UE Obligatoires pour l’option",
+        "UE Obligatoires",
+        "Required Previous"
+    ]
+
+    # Remove courses until within limit
+    for ctype in drop_priority:
+        if excess <= 0:
+            break
+
+        candidates = []
+
+        for course in courses_by_type.get(ctype, []):
+            course_name = course["course"]
+            course_credit = course_credits.get(course_name, 0)
+
+            if course_credit > 0:
+                candidates.append((course, course_credit))
+
+        if not candidates:
+            continue
+
+        # Select course with credits closest to excess
+        course_to_remove, credit_value = min(
+            candidates,
+            key=lambda x: abs(x[1] - excess)
         )
 
-    # Return structured result
-    return {
-        "total_credits": total_credits,
-        "suggestions": suggestions,
-        "message": message.strip(),
-    }
+        logging.info(
+            f"Removing course '{course_to_remove['course']}' "
+            f"of type '{ctype}' with {credit_value} credits "
+            f"(closest match to excess {excess})."
+        )
+
+        remaining_courses.remove(course_to_remove)
+        excess -= credit_value
+
+        if excess <= 0:
+            break
+
+    return remaining_courses
