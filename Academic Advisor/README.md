@@ -139,8 +139,10 @@ python app.py
 {
   "username": "Alice",
   "message": "Hello"
-}`
+}
+```
 ---
+
 
 #  Final Notes
 
