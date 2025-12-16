@@ -33,7 +33,7 @@ Follow these steps to run the Academic Advisor locally.
 
 ```bash
 git clone https://github.com/<your-repo>/USJ-Student-Chatbots.git
-cd Academic Advisor
+cd Academic_Advisor
 ```
 
 ---
