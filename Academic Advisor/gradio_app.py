@@ -1,7 +1,7 @@
 import gradio as gr
 import sqlite3
 import sys, os, base64
-from langchain_core.messages import HumanMessage
+from langchain_core.messages import HumanMessage,AIMessage
 
 # --- Path setup ---
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
@@ -54,18 +54,43 @@ def login_user(username, password):
 
     return gr.update(visible=False), gr.update(visible=True), f"✅ Welcome {username}! You can start chatting."
 
+def extract_text(content):
+    if isinstance(content, str):
+        return content
+    if isinstance(content, list):
+        return "".join(
+            block.get("text", "")
+            for block in content
+            if isinstance(block, dict) and block.get("type") == "text"
+        )
+    return ""
+
 
 # --- Chat Logic ---
 def chat_with_agent(message, history):
     if not current_user or not global_advisor:
-        return "🔒 Please log in first."
+        yield "🔒 Please log in first."
+        return
 
-    result = global_advisor.invoke(
+    final_answer = ""
+
+    for msg, meta in global_advisor.stream(
         {"messages": [HumanMessage(content=message)]},
         config={"configurable": {"thread_id": current_user, "user_id": current_user}},
-    )
-    return result["messages"][-1].content
+        stream_mode="messages",
+    ):
+        # Debug (optional – remove later)
+        # msg.pretty_print()
 
+        # Only stream AI responses
+        if meta.get("langgraph_node") == "model" and isinstance(msg, AIMessage):
+            text = extract_text(msg.content)
+            if text:
+                final_answer += text
+                yield final_answer
+
+    if not final_answer:
+        yield "⚠️ The advisor could not generate a response. Please rephrase your question."
 
 # --- Assets ---
 logo_path = "assets/logo.png"

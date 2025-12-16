@@ -4,7 +4,7 @@ import sys , os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../")))
 from langchain_core.messages import  SystemMessage
 from langgraph.checkpoint.memory import MemorySaver
-from langgraph.prebuilt import create_react_agent
+from langchain.agents import create_agent
 from langchain.chat_models import init_chat_model
 
 from src.core.prompts import SYSTEM_MESSAGE
@@ -31,10 +31,10 @@ def create_agent_for_user(username: str):
 
     tools = [detect_schedule_conflicts, build_timetable, course_distribution_advisor,course_context_lookup,calculate_total_credits_tool]
 
-    agent_instance = create_react_agent(
+    agent_instance = create_agent(
         model=llm,
         tools=tools,
-        prompt=sys_msg,
+        system_prompt=sys_msg,
         checkpointer=MemorySaver(),
         name=f"academic_advisor_agent_{username}"
     )
