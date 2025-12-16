@@ -25,7 +25,7 @@ Follow these steps to run the chatbot locally.
 
 ```bash
 git clone https://github.com/<your-repo>/USJ-Student-Chatbots.git
-cd University Chatbot
+cd University_Chatbot
 ```
 
 ---
